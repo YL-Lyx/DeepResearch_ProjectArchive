@@ -4,6 +4,56 @@ function classNames(...xs) {
   return xs.filter(Boolean).join(" ");
 }
 
+function cleanText(value) {
+  if (!value) return "";
+  const s = String(value);
+  // Remove LLM citation artifacts like:
+  // ":contentReference[oaicite:12]{index=12}:contentReference[oaicite:13]{index=13}"
+  return s
+    .replace(/\s*:?\s*contentReference\[oaicite:\d+]\{index=\d+}/gi, "")
+    .replace(/\s{2,}/g, " ")
+    .replace(/\s+\./g, ".")
+    .trim();
+}
+
+function shouldShowExpand(text, thresholdChars = 420) {
+  return cleanText(text).length > thresholdChars;
+}
+
+function ExpandableText({ label, text, className, collapsedLines = 6 }) {
+  const [open, setOpen] = useState(false);
+  const cleaned = cleanText(text);
+  const canExpand = shouldShowExpand(cleaned);
+  if (!cleaned) return null;
+
+  return (
+    <div className={classNames("grid gap-2", className)}>
+      {label ? (
+        <div className="text-xs font-semibold uppercase tracking-wide text-neutral-600">
+          {label}
+        </div>
+      ) : null}
+      <div
+        className={classNames(
+          "text-sm leading-6 text-neutral-800",
+          !open ? `clamp-${collapsedLines}` : null
+        )}
+      >
+        {cleaned}
+      </div>
+      {canExpand ? (
+        <button
+          type="button"
+          className="w-fit rounded-xl border border-neutral-200 bg-white px-3 py-1.5 text-xs text-neutral-700 hover:bg-neutral-50"
+          onClick={() => setOpen((v) => !v)}
+        >
+          {open ? "Show less" : "Show more"}
+        </button>
+      ) : null}
+    </div>
+  );
+}
+
 function Chip({ children }) {
   return (
     <span className="inline-flex items-center rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700 shadow-sm">
@@ -57,6 +107,54 @@ function Modal({ open, onClose, title, children }) {
   );
 }
 
+function SafeImage({
+  src,
+  alt,
+  className,
+  containerClassName,
+  sourceUrl,
+  sourceName,
+  loading = "lazy",
+  fit = "cover"
+}) {
+  const [failed, setFailed] = useState(false);
+  const usableSrc = typeof src === "string" && src.trim().length > 0 ? src.trim() : "";
+  const showFallback = failed || !usableSrc;
+
+  return (
+    <div className={classNames("relative", containerClassName)}>
+      {!showFallback ? (
+        <img
+          src={usableSrc}
+          alt={alt || "image"}
+          className={classNames(className, fit === "contain" ? "object-contain" : "object-cover")}
+          loading={loading}
+          referrerPolicy="no-referrer"
+          onError={() => setFailed(true)}
+        />
+      ) : (
+        <div
+          className={classNames(
+            "grid h-full w-full place-items-center bg-neutral-100 text-center text-xs text-neutral-600",
+            className
+          )}
+        >
+          <div className="px-4">
+            <div className="font-medium text-neutral-700">Image unavailable</div>
+            {sourceUrl ? (
+              <div className="mt-1">
+                <ExternalLink href={sourceUrl} className="text-xs">
+                  Open source{sourceName ? ` (${sourceName})` : ""}
+                </ExternalLink>
+              </div>
+            ) : null}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
 function Gallery({ images }) {
   const safeImages = Array.isArray(images) ? images : [];
   const [idx, setIdx] = useState(0);
@@ -78,11 +176,12 @@ function Gallery({ images }) {
   return (
     <div className="grid gap-4 md:grid-cols-[1.4fr_0.6fr]">
       <div className="overflow-hidden rounded-2xl border border-neutral-200 bg-neutral-50">
-        <img
+        <SafeImage
           src={current.url}
           alt={current.alt || "project image"}
-          className="h-[380px] w-full object-cover md:h-[520px]"
-          loading="lazy"
+          className="h-[380px] w-full md:h-[520px]"
+          sourceUrl={current.sourceUrl}
+          sourceName={current.sourceName}
         />
         <div className="border-t border-neutral-200 bg-white px-4 py-3 text-xs text-neutral-600">
           <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
@@ -109,16 +208,17 @@ function Gallery({ images }) {
           >
             <div className="grid grid-cols-[96px_1fr] gap-3 p-3">
               <div className="overflow-hidden rounded-xl bg-neutral-100">
-                <img
+                <SafeImage
                   src={im.url}
                   alt={im.alt || "thumbnail"}
-                  className="h-20 w-24 object-cover transition-transform group-hover:scale-[1.02]"
-                  loading="lazy"
+                  className="h-20 w-24 transition-transform group-hover:scale-[1.02]"
+                  sourceUrl={im.sourceUrl}
+                  sourceName={im.sourceName}
                 />
               </div>
               <div className="min-w-0">
                 <div className="truncate text-sm font-medium text-neutral-900">
-                  {im.alt || `Image ${i + 1}`}
+                  {cleanText(im.alt) || `Image ${i + 1}`}
                 </div>
                 <div className="mt-1 flex flex-wrap items-center gap-2 text-xs text-neutral-600">
                   {im.role ? <span className="rounded-md bg-neutral-100 px-2 py-0.5">{im.role}</span> : null}
@@ -148,11 +248,12 @@ function ProjectCard({ p }) {
           <div className="relative">
             <div className="aspect-[16/10] w-full bg-neutral-100">
               {cover ? (
-                <img
+                <SafeImage
                   src={cover.url}
                   alt={cover.alt || p.title}
-                  className="h-full w-full object-cover"
-                  loading="lazy"
+                  className="h-full w-full"
+                  sourceUrl={cover.sourceUrl}
+                  sourceName={cover.sourceName}
                 />
               ) : null}
             </div>
@@ -162,16 +263,16 @@ function ProjectCard({ p }) {
             </div>
           </div>
           <div className="p-5">
-            <div className="text-base font-semibold text-neutral-900">{p.title}</div>
+            <div className="text-base font-semibold text-neutral-900">{cleanText(p.title)}</div>
             <div className="mt-1 text-sm text-neutral-600">
-              {p.authors?.join(" · ")}
+              {(p.authors || []).map(cleanText).filter(Boolean).join(" · ")}
             </div>
-            <p className="mt-3 text-sm leading-6 text-neutral-700">
-              {p.summary}
+            <p className="mt-3 text-sm leading-6 text-neutral-700 clamp-4">
+              {cleanText(p.summary)}
             </p>
             <div className="mt-4 flex flex-wrap gap-2">
               {(p.tags || []).slice(0, 6).map((t) => (
-                <Chip key={t}>{t}</Chip>
+                <Chip key={t}>{cleanText(t)}</Chip>
               ))}
             </div>
           </div>
@@ -184,20 +285,14 @@ function ProjectCard({ p }) {
             {p.year ? <Chip>{p.year}</Chip> : null}
             {p.location ? <Chip>{p.location}</Chip> : null}
             {(p.authors || []).map((a) => (
-              <Chip key={a}>{a}</Chip>
+              <Chip key={a}>{cleanText(a)}</Chip>
             ))}
           </div>
 
-          {p.analyticalCaption ? (
-            <div className="rounded-2xl border border-neutral-200 bg-neutral-50 p-4 text-sm leading-6 text-neutral-800">
-              <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-neutral-600">
-                Analytical caption
-              </div>
-              {p.analyticalCaption}
-            </div>
-          ) : null}
-
-          <div className="text-sm leading-6 text-neutral-700">{p.summary}</div>
+          <div className="grid gap-4 rounded-2xl border border-neutral-200 bg-neutral-50 p-4">
+            <ExpandableText label="Analytical caption" text={p.analyticalCaption} collapsedLines={6} />
+            <ExpandableText label="Summary" text={p.summary} collapsedLines={6} />
+          </div>
 
           <Gallery images={p.images || []} />
 
@@ -237,12 +332,12 @@ function ProjectCard({ p }) {
                 {(p.references || []).map((r, idx) => (
                   <li key={`${r.url}-${idx}`} className="leading-6">
                     <span className="mr-2 rounded-md bg-neutral-100 px-2 py-0.5 text-xs text-neutral-700">
-                      {r.type}
+                      {cleanText(r.type)}
                     </span>
                     {r.url ? (
-                      <ExternalLink href={r.url}>{r.citation || r.url}</ExternalLink>
+                      <ExternalLink href={r.url}>{cleanText(r.citation) || r.url}</ExternalLink>
                     ) : (
-                      r.citation
+                      cleanText(r.citation)
                     )}
                   </li>
                 ))}

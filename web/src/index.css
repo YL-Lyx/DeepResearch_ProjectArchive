@@ -10,3 +10,21 @@ body {
 body {
   margin: 0;
 }
+
+/* Simple line-clamp utilities (Tailwind plugin not required). */
+.clamp-3,
+.clamp-4,
+.clamp-6 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.clamp-3 {
+  -webkit-line-clamp: 3;
+}
+.clamp-4 {
+  -webkit-line-clamp: 4;
+}
+.clamp-6 {
+  -webkit-line-clamp: 6;
+}
