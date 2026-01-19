@@ -1,8 +1,9 @@
 {
   "generatedAt": "2026-01-19",
-  "datasetCount": 1,
-  "projectCount": 8,
+  "datasetCount": 2,
+  "projectCount": 45,
   "datasetFiles": [
-    "data/schema/discrete-combinatorial-architecture.projects.json"
+    "data/schema/discrete-combinatorial-architecture.projects.json",
+    "data/schema/projects.researchv2.json"
   ]
 }

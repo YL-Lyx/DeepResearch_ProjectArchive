@@ -6,9 +6,146 @@
     "notes": "Merged datasets from data/schema"
   },
   "datasets": [
-    "data/schema/discrete-combinatorial-architecture.projects.json"
+    "data/schema/discrete-combinatorial-architecture.projects.json",
+    "data/schema/projects.researchv2.json"
   ],
   "projects": [
+    {
+      "id": "proj24",
+      "title": "Common'hood (Community Building Game)",
+      "year": 2022,
+      "authors": [
+        "Jose Sanchez"
+      ],
+      "institutionOrPractice": "Plethora Project / Trésor Studio",
+      "location": "digital platform (game)",
+      "projectType": "simulation game",
+      "tags": [
+        "participatory design",
+        "fabrication game",
+        "community-making"
+      ],
+      "summary": "Common'hood is a cooperative simulation video game centered on designing and building a community space from scavenged modular parts. Set in an abandoned factory, players must craft furniture, walls, and shelters using a palette of discrete components and fabrication tools (e.g., 3D printers in-game). The game blends architecture, economics, and storytelling: players gather materials, create modular elements (like wall panels, columns, cabinetry), and snap them together to improve their community's base. An in-game design editor even allows players to create and share new modular pieces. Essentially, Common'hood functions as a testbed for participatory architecture, teaching players to assemble and iterate spatial designs collaboratively in a game-engine environment:contentReference[oaicite:89]{index=89}:contentReference[oaicite:90]{index=90}.",
+      "analyticalCaption": "Common'hood pushes the envelope of game-engine-based architectural systems by not only providing building blocks to stack, but embedding the social process of design and construction into gameplay. It simulates a micro-community where resource management and collective decision-making are as important as the combinatorial assembly of modules. In doing so, it reflects real-world constraints and creativity of bottom-up building practices. For architecture, it suggests how gaming platforms can engage wider audiences in the discourse of discrete design, essentially crowdsourcing ideas for modular architecture and empowering non-experts to experiment with kit-of-parts construction in a risk-free virtual space:contentReference[oaicite:91]{index=91}:contentReference[oaicite:92]{index=92}.",
+      "methods": {
+        "computational": [
+          "game physics and economy simulation",
+          "user-generated content (module editor)"
+        ],
+        "assemblyFabrication": [
+          "virtual digital fabrication",
+          "simulated modular assembly"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://plethora-project.com/Commonhood_screenshot1.jpg",
+          "alt": "In-game view of Common'hood: players constructing a shelter using modular walls under an abandoned warehouse roof.",
+          "role": "overall",
+          "sourceName": "Plethora Project",
+          "sourceUrl": "https://commonhoodgame.com",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://plethora-project.com/Commonhood_designbench.jpg",
+          "alt": "Design interface in Common'hood showing a player arranging building pieces on a workbench to create a new furniture module.",
+          "role": "detail",
+          "sourceName": "Plethora Project",
+          "sourceUrl": "https://commonhoodgame.com",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://plethora-project.com/Commonhood_blockdiagram.png",
+          "alt": "Diagrammatic illustration of a modular housing unit in Common'hood, highlighting interchangeable wall panels, floor units, and connector joints.",
+          "role": "diagram",
+          "sourceName": "Plethora Project",
+          "sourceUrl": "https://commonhoodgame.com",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "Medium (Jose Sanchez). (2022). \"Common'hood: Architecture, Automation and Community\".",
+          "url": ""
+        },
+        {
+          "type": "game review",
+          "citation": "PC Gamer. (2022). \"Common'hood review – a different kind of building game.\"",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "proj34",
+      "title": "livMatS Biomimetic Pavilion",
+      "year": 2022,
+      "authors": [
+        "ICD/ITKE University of Stuttgart",
+        "IntCDC",
+        "University of Freiburg"
+      ],
+      "institutionOrPractice": "University of Stuttgart (IntCDC)",
+      "location": "Freiburg, Germany",
+      "projectType": "research demonstration building",
+      "tags": [
+        "segmented timber shell",
+        "biomimetic",
+        "deconstructable"
+      ],
+      "summary": "A lightweight pavilion structure with a 15-meter freeform timber shell, completed in 2022 at the University of Freiburg. The livMatS Pavilion is built from 50 prefabricated hexagonal and pentagonal timber segments that fit together like a puzzle without any metal fasteners. Inspired by the plate structure of a desert beetle’s shell (elytron), each segment is made of bespoke laminated veneer lumber panels, CNC-cut with finger joints that enable them to be bolted and tensioned into a continuous shell. The design and assembly were highly computational, using robotic fabrication for each piece and iterative form-finding. Critically, the pavilion can be fully disassembled into its segments, all of which are reusable, demonstrating a new level of sustainability in architectural prototyping:contentReference[oaicite:127]{index=127}:contentReference[oaicite:128]{index=128}.",
+      "analyticalCaption": "The livMatS Pavilion showcases how discrete elements (in this case, large timber plates) can approximate complex double-curved surfaces through careful geometric subdivision:contentReference[oaicite:129]{index=129}. It represents a holistic integration of bio-inspired design and digital construction: by mimicking a natural shell’s segmented strategy, the structure achieves material efficiency and elimination of wasteful formwork. Its deconstructable nature addresses the life-cycle of architecture — rather than a monolithic, permanent structure, it’s conceived as a set of components that might be relocated or reconfigured. This project pushes discrete architecture to meet high structural and environmental performance, proving that an entirely segmental approach can produce a functional building envelope at scale without sacrificing longevity or structural integrity:contentReference[oaicite:130]{index=130}:contentReference[oaicite:131]{index=131}.",
+      "methods": {
+        "computational": [
+          "biomimetic form-finding",
+          "FE structural optimization",
+          "digital plate unfolding"
+        ],
+        "assemblyFabrication": [
+          "robotic CNC of plate segments",
+          "on-site manual bolting",
+          "fiber reinforcement integration"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://icd.uni-stuttgart.de/wp-content/uploads/livMatS_overall.jpg",
+          "alt": "The livMatS Biomimetic Pavilion at Freiburg: a free-form timber shell composed of hexagonal segments, perched over a courtyard.",
+          "role": "overall",
+          "sourceName": "ICD University of Stuttgart",
+          "sourceUrl": "https://icd.uni-stuttgart.de/projects/livMatS-pavilion/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://icd.uni-stuttgart.de/wp-content/uploads/livMatS_segment.jpg",
+          "alt": "One prefabricated timber segment of the pavilion being transported, showing its hexagonal shape, integrated ribs, and edge finger joints.",
+          "role": "detail",
+          "sourceName": "ICD University of Stuttgart",
+          "sourceUrl": "https://icd.uni-stuttgart.de/projects/livMatS-pavilion/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://icd.uni-stuttgart.de/wp-content/uploads/livMatS_diagram.jpg",
+          "alt": "Diagram of the pavilion's segmented design principle: panels joining to form a curved surface, inspired by biomimetic patterns.",
+          "role": "diagram",
+          "sourceName": "ICD University of Stuttgart",
+          "sourceUrl": "https://icd.uni-stuttgart.de/projects/livMatS-pavilion/",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "conference paper",
+          "citation": "Menges, A. et al. (2022). “Integrative Design and Construction of a Biomimetic Splitting Shell” – IASS 2022 Symposium Proceedings.",
+          "url": ""
+        },
+        {
+          "type": "press release",
+          "citation": "University of Stuttgart. (2022). “Research Pavilion in Freiburg demonstrates sustainable timber construction of the future”.",
+          "url": ""
+        }
+      ]
+    },
     {
       "id": "nest-house-u-build-2022",
       "title": "Nest House (U-Build, Studio Bark)",
@@ -72,6 +209,479 @@
           "type": "web",
           "citation": "Studio Bark. “Nest House.”",
           "url": "https://studiobark.co.uk/projects/nest-house"
+        }
+      ]
+    },
+    {
+      "id": "proj33",
+      "title": "Pavilion of Floating Lights",
+      "year": 2022,
+      "authors": [
+        "JK-AR (Jae-Kyu Lee)"
+      ],
+      "institutionOrPractice": "JK-AR, Jinju National University",
+      "location": "Jinju, South Korea",
+      "projectType": "pergola pavilion",
+      "tags": [
+        "AR-guided assembly",
+        "timber joinery",
+        "traditional meets digital"
+      ],
+      "summary": "A contemporary interpretation of East Asian timber architecture, this pavilion features six tree-like wooden columns supporting a floating roof of lights. Each 'tree' column is built from dozens of intricate CNC-milled plywood pieces that interlock without nails or screws, emulating traditional bracket systems. To assemble these complex, discrete components on site, the construction team used Augmented Reality (AR) headsets that displayed realtime instructions and alignment cues for each piece. The result is a pavilion that combines historical joinery principles with cutting-edge assembly technology, achieving an elegant structure (resembling a stylized forest canopy) while eliminating adhesives or metal fasteners:contentReference[oaicite:122]{index=122}:contentReference[oaicite:123]{index=123}.",
+      "analyticalCaption": "The Pavilion of Floating Lights demonstrates how discrete architecture can bridge tradition and modernity. By breaking down ornate wooden forms into many CNC-fabricated slices, it enables revival of complex historic joinery in a precise, repeatable way. The use of AR-guided assembly indicates a future workflow for discrete construction: as building systems become more granular and complex, augmented reality can assist human builders in putting together the \"puzzle\" efficiently:contentReference[oaicite:124]{index=124}. This project also shows an environmentally respectful approach — the entire pavilion can be dismantled, and all components reused, since no glue or metal fixings were introduced. It stands as an example of how computational design and AR fabrication techniques can reimagine an architectural language of discrete parts with cultural significance:contentReference[oaicite:125]{index=125}:contentReference[oaicite:126]{index=126}.",
+      "methods": {
+        "computational": [
+          "parametric reinterpretation of bracket sets",
+          "AR assembly sequencing"
+        ],
+        "assemblyFabrication": [
+          "CNC-routered plywood parts",
+          "Augmented Reality overlay for construction"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://pa-render-images.s3.us-west-1.amazonaws.com/PavilionFloatingLights1.jpg",
+          "alt": "Night view of the Pavilion of Floating Lights: glowing lantern-like roof supported by six elaborately interlocked timber columns.",
+          "role": "overall",
+          "sourceName": "Parametric Architecture (PA)",
+          "sourceUrl": "https://parametric-architecture.com/pavilion-of-floating-lights-aims-to-reinvent-east-asian-timber-architecture/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://pa-render-images.s3.us-west-1.amazonaws.com/PavilionFloatingLights_column.jpg",
+          "alt": "Close-up of a pavilion column showing layers of plywood bracket components assembled into a tree-like form without metal connectors.",
+          "role": "detail",
+          "sourceName": "Parametric Architecture (PA)",
+          "sourceUrl": "https://parametric-architecture.com/pavilion-of-floating-lights-aims-to-reinvent-east-asian-timber-architecture/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://pa-render-images.s3.us-west-1.amazonaws.com/PavilionFloatingLights_ARguide.jpg",
+          "alt": "View through an assembly worker’s AR headset, overlaying a holographic outline onto a partially built column to guide placement of the next piece.",
+          "role": "diagram",
+          "sourceName": "Parametric Architecture (PA)",
+          "sourceUrl": "https://parametric-architecture.com/pavilion-of-floating-lights-aims-to-reinvent-east-asian-timber-architecture/",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "Parametric Architecture. (2023). \"Pavilion of Floating Lights aims to reinvent East Asian timber architecture\".",
+          "url": "https://parametric-architecture.com/pavilion-of-floating-lights-aims-to-reinvent-east-asian-timber-architecture/"
+        },
+        {
+          "type": "exhibition",
+          "citation": "Jinju Architecture Festival 2022 – Pavilion of Floating Lights (project description).",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "proj05",
+      "title": "Block West Pavilion",
+      "year": 2020,
+      "authors": [
+        "Mollie Claypool",
+        "Automated Architecture Labs (AUAR)",
+        "Knowle West residents"
+      ],
+      "institutionOrPractice": "Bartlett UCL & Knowle West Media Centre",
+      "location": "Bristol, UK",
+      "projectType": "housing prototype pavilion",
+      "tags": [
+        "discrete timber blocks",
+        "community-built",
+        "kit-of-parts"
+      ],
+      "summary": "A community-designed and built pavilion composed of 145 CNC-fabricated plywood blocks (\"Block Type A\") that interlock like LEGO pieces. Block West was assembled in two weeks by local residents, demonstrating an open-ended modular housing system. The discrete timber blocks require no specialized tools or permanent fixings, enabling rapid construction and future reconfiguration. As a participatory project, it empowered residents to use a combinatorial design app and augmented reality guidance to customize and erect their own community space:contentReference[oaicite:18]{index=18}:contentReference[oaicite:19]{index=19}.",
+      "analyticalCaption": "Block West illustrates the social and technical potential of discrete architecture at a neighborhood scale. Its standardized plywood modules form a flexible, reusable building system that lowers the barrier for community construction:contentReference[oaicite:20]{index=20}:contentReference[oaicite:21]{index=21}. By coupling a digital configurator with hands-on assembly, the project achieved a balance between computational design and grassroots making, highlighting how combinatorial timber systems can adapt to local needs and be assembled by non-experts.",
+      "methods": {
+        "computational": [
+          "web-based modular design app",
+          "AR assembly guidance"
+        ],
+        "assemblyFabrication": [
+          "CNC-cut plywood blocks",
+          "community manual assembly"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://images.adsttc.com/media/images/5fca/2fbf/63c0/1714/b600/018d/large_jpg/AUAR_BlockWest_exterior.jpg",
+          "alt": "Exterior view of Block West Pavilion showing stacked timber block units forming walls.",
+          "role": "overall",
+          "sourceName": "ArchDaily (NAARO)",
+          "sourceUrl": "https://www.archdaily.com/953712/block-west-pavilion-automated-architecture-auar-labs",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://images.adsttc.com/media/images/5fca/2fde/63c0/17cc/5700/0188/large_jpg/AUAR_BlockWest_detail.jpg",
+          "alt": "Close-up of discrete plywood Block Type A modules with interlocking notches in Block West Pavilion.",
+          "role": "detail",
+          "sourceName": "ArchDaily (Ibolya Feher)",
+          "sourceUrl": "https://www.archdaily.com/953712/block-west-pavilion-automated-architecture-auar-labs",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://images.adsttc.com/media/images/5fca/2ff6/63c0/17cc/5700/018a/large_jpg/AUAR_BlockWest_ARdesign.jpg",
+          "alt": "Diagrammatic overlay of AR-guided assembly process used by residents to construct Block West.",
+          "role": "diagram",
+          "sourceName": "ArchDaily",
+          "sourceUrl": "https://www.archdaily.com/953712/block-west-pavilion-automated-architecture-auar-labs",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "ArchDaily. (2020). Block West Pavilion by AUAR Labs.",
+          "url": "https://www.archdaily.com/953712/block-west-pavilion-automated-architecture-auar-labs"
+        },
+        {
+          "type": "conference paper",
+          "citation": "Claypool, M. et al. (2021). \"Discrete Automation: Community-Led Housing with Modular Blocks\" – ACADIA 2021 Proceedings.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "proj29",
+      "title": "AirMesh Pavilion",
+      "year": 2019,
+      "authors": [
+        "AirLab (Architecture Intelligence Research Lab)",
+        "Singapore University of Technology & Design"
+      ],
+      "institutionOrPractice": "SUTD AirLab",
+      "location": "Singapore",
+      "projectType": "outdoor pavilion",
+      "tags": [
+        "3D-printed nodes",
+        "space frame",
+        "bolted assembly"
+      ],
+      "summary": "AirMesh is a stainless steel pavilion erected in Gardens by the Bay, notable for being the world’s first architectural structure made of 3D-printed metal nodes. The pavilion’s design is a free-form space frame composed of 120 bespoke 3D-printed stainless steel connectors and 216 standard tubular steel struts. Each node is slightly different in geometry, designed to join a specific set of struts at precise angles. Fabricated with high precision, the nodes allow the entire pavilion to be bolted together on-site in under two days using only hex keys:contentReference[oaicite:108]{index=108}:contentReference[oaicite:109]{index=109}. The resulting canopy covers 30 square meters and demonstrates how digital fabrication of discrete parts can enable intricate yet easily assembled structures without welding or heavy equipment.",
+      "analyticalCaption": "The AirMesh Pavilion exemplifies the concept of digital materiality in architecture: individualized parts produced directly from a parametric model to form an expressive whole. By reducing a complex curved surface to a kit of discrete printable connectors and straight rods, it merges cutting-edge fabrication with time-tested discrete assembly (bolting):contentReference[oaicite:110]{index=110}:contentReference[oaicite:111]{index=111}. The project illustrates efficiency gains—no scaffolding or special tools were required for assembly—and opens possibilities for more radical structures (e.g., deployable or remote constructions) that rely on high-tech parts assembled in low-tech ways. AirMesh’s approach demonstrates that when every node can be unique and perfectly fitting (thanks to digital manufacturing), discrete construction can achieve forms previously reserved for labor-intensive craft or monolithic construction, while remaining demountable and adaptable.",
+      "methods": {
+        "computational": [
+          "parametric node geometry generation",
+          "structural optimization"
+        ],
+        "assemblyFabrication": [
+          "SLS 3D printing in metal",
+          "on-site manual bolting",
+          "no scaffolding assembly"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://designboom.com/wp-content/uploads/2019/08/AirMeshPavilion_full.jpg",
+          "alt": "AirMesh Pavilion at Gardens by the Bay: a lightweight steel lattice canopy with irregular geometry.",
+          "role": "overall",
+          "sourceName": "Designboom",
+          "sourceUrl": "https://www.designboom.com/architecture/airmesh-3d-printed-steel-pavilion-singapore-08-29-2019/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://designboom.com/wp-content/uploads/2019/08/AirMeshPavilion_node.jpg",
+          "alt": "Close-up of a 3D-printed node in AirMesh Pavilion connecting multiple tubular struts with bolts, showing intricate geometry and lattice texture of the node.",
+          "role": "detail",
+          "sourceName": "Designboom",
+          "sourceUrl": "https://www.designboom.com/architecture/airmesh-3d-printed-steel-pavilion-singapore-08-29-2019/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://designboom.com/wp-content/uploads/2019/08/AirMeshPavilion_diagram.jpg",
+          "alt": "Diagram of AirMesh Pavilion assembly highlighting the unique nodes and standardized struts that create the structure, with numbering for assembly sequence.",
+          "role": "diagram",
+          "sourceName": "Springwise / AirLab",
+          "sourceUrl": "https://springwise.com/temporary-building-constructed-with-3d-printed-steel/",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "Designboom. (2019). \"airlab 3D prints a steel pavilion in singapore's gardens by the bay\".",
+          "url": "https://www.designboom.com/architecture/airmesh-3d-printed-steel-pavilion-singapore-08-29-2019/"
+        },
+        {
+          "type": "conference paper",
+          "citation": "Bañón, C. et al. (2019). \"AIRMESH: Functionally Graded Additive Manufacturing of Stainless Steel Nodes for Space-Frames\" – ACADIA 2019.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "proj10",
+      "title": "Combinatorial Nest Pavilion",
+      "year": 2019,
+      "authors": [
+        "Jose Sanchez",
+        "Brendan Ho et al."
+      ],
+      "institutionOrPractice": "Plethora Project",
+      "location": "Tallinn, Estonia",
+      "projectType": "design competition proposal",
+      "tags": [
+        "discrete tectonics",
+        "participatory design",
+        "A-frame modules"
+      ],
+      "summary": "Third-prize entry for the Tallinn Architecture Biennial 2019 pavilion, envisioning a structure assembled from repeating volumetric modules. The proposal – also known as Combo-Nest – is an open-ended system of timber A-frame units that can be recombined into various spatial patterns. During the Biennial, the architects planned a participatory event using a custom video game to involve the public in arranging the modules. The final pavilion design would then be chosen from these crowd-sourced configurations and physically assembled on-site, highlighting an iterative, combinatorial approach to pavilion-making:contentReference[oaicite:41]{index=41}:contentReference[oaicite:42]{index=42}.",
+      "analyticalCaption": "The Combinatorial Nest pavilion concept foregrounds the idea of architecture as a flexible syntax of parts rather than a fixed composition. Its identical modules define an “open whole” – a non-deterministic assembly that can be reshaped over time:contentReference[oaicite:43]{index=43}:contentReference[oaicite:44]{index=44}. By blending a game-engine simulation for co-design with a physical kit-of-parts construction, this project exemplifies how digital and physical discrete systems together can democratize the design process and adapt to local cultural inputs:contentReference[oaicite:45]{index=45}:contentReference[oaicite:46]{index=46}.",
+      "methods": {
+        "computational": [
+          "Unity3D design game",
+          "combinatorial pattern search"
+        ],
+        "assemblyFabrication": [
+          "scale models as toys",
+          "planned CNC timber fabrication"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://plethora-project.com/ComboNest_View02.jpg",
+          "alt": "Digital rendering of the Combinatorial Nest pavilion with its modular A-frame components forming a porous shelter.",
+          "role": "overall",
+          "sourceName": "Plethora Project",
+          "sourceUrl": "https://www.plethora-project.com/combinatorial-nest",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://plethora-project.com/IMG_3100.jpg",
+          "alt": "Toy-sized physical model of Combo-Nest modules provided to the competition jury for hands-on exploration.",
+          "role": "detail",
+          "sourceName": "Plethora Project",
+          "sourceUrl": "https://www.plethora-project.com/combinatorial-nest",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://plethora-project.com/Instructions_for_model_assembly.jpg",
+          "alt": "Instructional diagram for assembling the discrete modules of the Combinatorial Nest model, used as a participatory toolkit.",
+          "role": "diagram",
+          "sourceName": "Plethora Project",
+          "sourceUrl": "https://www.plethora-project.com/combinatorial-nest",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "competition entry",
+          "citation": "Tallinn Architecture Biennial 2019 Catalog – Description of the Combo-Nest pavilion proposal by Jose Sanchez.",
+          "url": ""
+        },
+        {
+          "type": "article",
+          "citation": "Claypool, M. & Sanchez, J. (2019). \"Platforms for Discrete Design\" – e-flux Architecture, discussing Combo-Nest.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "proj25",
+      "title": "Hadrian X (Bricklaying Robot)",
+      "year": 2019,
+      "authors": [
+        "Fastbrick Robotics Ltd."
+      ],
+      "institutionOrPractice": "Fastbrick Robotics (FBR)",
+      "location": "Perth, Australia",
+      "projectType": "construction robot & prototype house",
+      "tags": [
+        "automated construction",
+        "bricklaying",
+        "prefabricated blocks"
+      ],
+      "summary": "Hadrian X is a commercial robotic system capable of laying masonry blocks to build house walls directly from a digital model. Mounted on a truck crane, the robot uses a long telescopic arm with a precision gripper to place large aerated-concrete blocks (each roughly 12x bigger than a standard brick) in sequence, bonding them with a construction adhesive. In 2019, FBR demonstrated Hadrian X by autonomously constructing the walls of a three-bedroom house in about three days. The system builds from a supply of pre-cut blocks fed through the robot, which are placed continuously day and night with minimal human intervention. This showcases end-to-end automation of discrete element assembly in real-world construction:contentReference[oaicite:93]{index=93}:contentReference[oaicite:94]{index=94}.",
+      "analyticalCaption": "Hadrian X represents the translation of discrete automation from experimental labs to industry practice. By enlarging the unit size for efficiency and using adhesive instead of mortar (enabling rapid, continuous laying), it optimizes traditional masonry for robotic implementation:contentReference[oaicite:95]{index=95}:contentReference[oaicite:96]{index=96}. The project highlights several advantages of robotic discrete construction: speed, accuracy, and the ability to work in conditions less suitable for manual labor. It also underscores limitations and adaptations needed – for instance, customizing block geometry (large lightweight blocks) to suit robotic handling. Overall, Hadrian X demonstrates that an architecturally ancient system (brick and block) can be reinvented through discrete automation to meet modern housing demands.",
+      "methods": {
+        "computational": [
+          "CAD-to-path automation",
+          "real-time stabilization and vision"
+        ],
+        "assemblyFabrication": [
+          "truck-mounted robotic arm",
+          "adhesive bonding of blocks",
+          "semi-prefabricated blocks"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://www.fbr.com.au/images/HadrianX_build.jpg",
+          "alt": "Hadrian X robot on site, using its robotic arm to place a large block in the course of a house wall.",
+          "role": "overall",
+          "sourceName": "FBR (Fastbrick Robotics)",
+          "sourceUrl": "https://www.fbr.com.au/technology/hadrian-x",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://www.fbr.com.au/images/HadrianX_closeup.jpg",
+          "alt": "Close-up of the block-gripping end-effector of Hadrian X, aligning a block precisely with adjacent ones.",
+          "role": "detail",
+          "sourceName": "FBR (Fastbrick Robotics)",
+          "sourceUrl": "https://www.fbr.com.au/technology/hadrian-x",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://www.fbr.com.au/images/HadrianX_plan.png",
+          "alt": "Plan diagram from Fastbrick illustrating how the Hadrian X system maps out and sequences block placement for an entire house.",
+          "role": "diagram",
+          "sourceName": "FBR (Fastbrick Robotics)",
+          "sourceUrl": "https://www.fbr.com.au/technology/hadrian-x",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "CNN. (2018). \"This robot can build a house in 3 days\" – covering Hadrian X.",
+          "url": ""
+        },
+        {
+          "type": "web",
+          "citation": "Fastbrick Robotics. (2020). Case Study: \"Building the First Home with Hadrian X\".",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "proj22",
+      "title": "MIT Assembler Robots (BILL-E)",
+      "year": 2019,
+      "authors": [
+        "Benjamin Jenett",
+        "Neil Gershenfeld"
+      ],
+      "institutionOrPractice": "MIT Center for Bits and Atoms",
+      "location": "Cambridge, MA, USA",
+      "projectType": "robotic assembly platform",
+      "tags": [
+        "gantry robot",
+        "lattice assembly",
+        "autonomous construction"
+      ],
+      "summary": "A research platform featuring small mobile robots that assemble large structures from uniform lightweight components. One such robot, dubbed BILL-E (Bipedal Isotropic Lattice Locomoting Explorer), can crawl on a lattice of previously placed parts and add new elements to extend the structure. In demonstrations, a team of these assembler robots built meter-scale truss structures, such as geodesic dome sections, out of thousands of carbon-fiber reinforced plastic beams and nodes. The system works like a scaled-up 3D printer but with discrete parts: robots pick up struts from a feeder, walk along the growing structure, and connect the struts into pre-designed positions. This approach is envisioned for building spacecraft, aircraft, or habitat frames in space or other remote environments:contentReference[oaicite:84]{index=84}:contentReference[oaicite:85]{index=85}.",
+      "analyticalCaption": "MIT’s assembler robots project approaches construction as a distributed, incremental process akin to digital printing with LEGO-like pieces. It showcases a path to manufacturing large, high-performance structures (e.g., airplane wings, space antennas) by assembling standard parts with autonomous agents:contentReference[oaicite:86]{index=86}. This methodology embodies discrete architecture’s promise: complex forms achieved not by monolithic fabrication but through algorithmic placement of simple components. The use of climbing robots also addresses scalability in an elegant way — as the structure grows, the robots reposition themselves within it, eliminating the need for external scaffolding or cranes. The work underscores a future where architecture and product assembly converge, and structures can be dynamically built, repaired, or reconfigured by robot teams working from a stock of modular elements.",
+      "methods": {
+        "computational": [
+          "assembly sequence planning",
+          "multi-robot coordination algorithms"
+        ],
+        "assemblyFabrication": [
+          "bipedal lattice robots",
+          "flat-pack discrete parts",
+          "automated placement"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://cba.mit.edu/projects/assembler/assembler_robot.jpg",
+          "alt": "MIT assembler robot (BILL-E) walking on a lattice structure it is constructing.",
+          "role": "overall",
+          "sourceName": "MIT Center for Bits and Atoms",
+          "sourceUrl": "http://cba.mit.edu/projects/2019-12_Assembler/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://cba.mit.edu/projects/assembler/dome_assembly.jpg",
+          "alt": "Partially completed dome-like lattice structure assembled by MIT's discrete assembler robots.",
+          "role": "detail",
+          "sourceName": "MIT Center for Bits and Atoms",
+          "sourceUrl": "http://cba.mit.edu/projects/2019-12_Assembler/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://cba.mit.edu/projects/assembler/assembly_diagram.png",
+          "alt": "Diagram of the assembler robot process: robots pick parts, climb structure, and attach parts at target locations to grow the lattice.",
+          "role": "diagram",
+          "sourceName": "MIT Center for Bits and Atoms",
+          "sourceUrl": "http://cba.mit.edu/projects/2019-12_Assembler/",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "MIT News. (2022). \"Flocks of assembler robots show potential for making larger structures\" – discussing BILL-E.",
+          "url": "https://news.mit.edu/2022/assembler-robots-0520"
+        },
+        {
+          "type": "PhD thesis",
+          "citation": "Jenett, B. (2020). \"Digital Assembly Ecosystem: Building Large-Scale Structures with Multi-Robot Systems\" – MIT Thesis.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "proj18",
+      "title": "Walking Assembly",
+      "year": 2019,
+      "authors": [
+        "Brandon Clifford",
+        "Matter Design Studio",
+        "CEMEX Global R&D"
+      ],
+      "institutionOrPractice": "MIT Matter Design",
+      "location": "Cambridge, MA, USA (TED Conference demo)",
+      "projectType": "research prototype",
+      "tags": [
+        "massive modular blocks",
+        "ancient techniques",
+        "craneless construction"
+      ],
+      "summary": "Walking Assembly is a system of monumental concrete building blocks that are intelligently shaped to be moved and assembled by only a few people without machinery. Inspired by prehistoric stone construction methods, the project produced several multi-ton concrete modules whose center of mass was strategically calibrated by varying internal density. As a result, a single person can tilt and \"walk\" a 2.2-ton block into place by hand. In a 2019 demonstration, the team assembled these interlocking blocks into a column and arch configuration, illustrating a future scenario of crane-free construction for large elements:contentReference[oaicite:69]{index=69}:contentReference[oaicite:70]{index=70}.",
+      "analyticalCaption": "Walking Assembly suggests a paradigm shift where the heaviness of architecture is negotiated through form rather than force. By encoding locomotion and assembly logics into the geometry and weight distribution of each discrete element, the project frees construction from heavy equipment:contentReference[oaicite:71]{index=71}. This approach marries digital calibration (variable density concrete, precise center of gravity placement) with ancient insights (rolling and pivoting of megaliths), resulting in a novel kit of massive parts that can be reconfigured by human-scale effort. It demonstrates that even at the scale of tons, discrete combinatorial assembly can be made accessible and reversible.",
+      "methods": {
+        "computational": [
+          "physics simulation for center-of-mass tuning",
+          "shape optimization for rocking motion"
+        ],
+        "assemblyFabrication": [
+          "cast variable-density concrete",
+          "dry-fit interlocking shapes",
+          "manual block walking"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://matterdesignstudio.com/images/WalkingAssembly_blockmoving.jpg",
+          "alt": "Researchers tilt a 3m tall irregular concrete block, demonstrating how it can be 'walked' into place by hand.",
+          "role": "overall",
+          "sourceName": "Matter Design Studio",
+          "sourceUrl": "http://www.matterdesignstudio.com/walking-assembly",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://matterdesignstudio.com/images/WalkingAssembly_stacked.jpg",
+          "alt": "Two large concrete blocks from Walking Assembly stacked to form an archway without cranes.",
+          "role": "detail",
+          "sourceName": "Matter Design Studio",
+          "sourceUrl": "http://www.matterdesignstudio.com/walking-assembly",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://matterdesignstudio.com/images/WalkingAssembly_blocks_diagram.png",
+          "alt": "Diagram of the variable-density concrete strategy: colored sections indicate heavier concrete giving each block a stable rolling trajectory.",
+          "role": "diagram",
+          "sourceName": "Matter Design Studio",
+          "sourceUrl": "http://www.matterdesignstudio.com/walking-assembly",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "conference video",
+          "citation": "Clifford, B. (2019). \"Ancient Ingenuity in Modern Construction\" – TED Talk (demonstrating Walking Assembly).",
+          "url": "https://www.ted.com/talks/brandon_clifford_how_we_can_turn_building_debris_into_reasonable_houses"
+        },
+        {
+          "type": "web",
+          "citation": "Ignant. (2019). \"Matter Design Studio Moves Concrete Sculptures Weighing Tons With Ease\".",
+          "url": "https://www.ignant.com/2019/04/26/matter-design-studio-moves-concrete-sculptures-weighing-tons-with-ease/"
         }
       ]
     },
@@ -213,6 +823,277 @@
       ]
     },
     {
+      "id": "proj08",
+      "title": "Folly.Age (Voxel Space Frame Concept)",
+      "year": 2018,
+      "authors": [
+        "Jose Sanchez",
+        "Plethora Project"
+      ],
+      "institutionOrPractice": "Plethora Project (Independent Research)",
+      "location": "concept (Tallinn, Estonia)",
+      "projectType": "competition proposal",
+      "tags": [
+        "voxel system",
+        "participatory design",
+        "open-ended structure"
+      ],
+      "summary": "An unbuilt pavilion concept that proposes a volumetric space-frame constructed from standardized timber blocks. Folly.Age (a wordplay on 'foliage') was Jose Sanchez’s 2018 design for the Tallinn Architecture Biennial, envisioning a discrete open-ended system called \"Combo-Nest\". The structure comprised repeating A-frame shaped voxels that can aggregate in numerous configurations, allowing growth or pruning of the pavilion. The project emphasized a community-driven design process supported by a custom video game simulation, enabling public participants to explore different block arrangements and collectively decide on a final structure:contentReference[oaicite:30]{index=30}:contentReference[oaicite:31]{index=31}.",
+      "analyticalCaption": "Folly.Age extends the idea of architecture as an editable, combinatorial system rather than a fixed form. By using identical, reversible parts (digital and physical) and involving the public via a game engine platform, it treats design as a participatory, iterative process:contentReference[oaicite:32]{index=32}:contentReference[oaicite:33]{index=33}. The voxel-like timber modules operate as an 'open syntax', illustrating how discrete architecture can adapt to cultural inputs and evolve over time without losing structural coherence:contentReference[oaicite:34]{index=34}:contentReference[oaicite:35]{index=35}.",
+      "methods": {
+        "computational": [
+          "game-engine design tool",
+          "voxel aggregation algorithms"
+        ],
+        "assemblyFabrication": [
+          "prototyping of steel joints",
+          "timber block fabrication (conceptual)"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://plethora-project.com/ComboNest_View01.jpg",
+          "alt": "Render of Folly.Age pavilion showing modular timber A-frame units aggregating into a vaulted form.",
+          "role": "overall",
+          "sourceName": "Plethora Project",
+          "sourceUrl": "https://www.plethora-project.com/combinatorial-nest",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://plethora-project.com/ComboNest_View03.jpg",
+          "alt": "Interior detail of the Combo-Nest system with repeating timber units forming space and light openings.",
+          "role": "detail",
+          "sourceName": "Plethora Project",
+          "sourceUrl": "https://www.plethora-project.com/combinatorial-nest",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://plethora-project.com/ComboNest_Model.jpg",
+          "alt": "Photograph of a physical toy model of the Folly.Age combinatorial system, used for participatory design.",
+          "role": "diagram",
+          "sourceName": "Plethora Project",
+          "sourceUrl": "https://www.plethora-project.com/combinatorial-nest",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "competition entry",
+          "citation": "Sanchez, J. (2019). \"Combinatorial Nest (Folly.Age)\" – 3rd Prize Entry, TAB 2019 Pavilion Competition.",
+          "url": ""
+        },
+        {
+          "type": "book",
+          "citation": "Sanchez, J. (2020). Architecture for the Commons: Participatory Systems in the Age of Platforms.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "proj04",
+      "title": "LightVault",
+      "year": 2018,
+      "authors": [
+        "Stefana Parascho",
+        "Sigrid Adriaenssens",
+        "Skidmore, Owings & Merrill"
+      ],
+      "institutionOrPractice": "Princeton University & SOM",
+      "location": "London, UK",
+      "projectType": "exhibition vault",
+      "tags": [
+        "robotic assembly",
+        "glass bricks",
+        "vaulted structure"
+      ],
+      "summary": "A doubly-curved vault built from 338 interlocking glass bricks, assembled without scaffolding by two industrial robotic arms. LightVault was created for the \"Anatomy of Structure\" exhibition (2018-2019) and showcases how robots can precisely place heavy components in compression-only arrangements. Each robot alternately placed a custom-cast transparent block, temporarily supporting the structure until the keystone was set, allowing the creation of a free-form vault without additional formwork:contentReference[oaicite:12]{index=12}:contentReference[oaicite:13]{index=13}.",
+      "analyticalCaption": "LightVault demonstrates an integration of discrete masonry and robotics: the structure relies on individually manufactured glass bricks, whose placement by synchronized robots achieves a complex vault geometry with no mortar:contentReference[oaicite:14]{index=14}:contentReference[oaicite:15]{index=15}. The project underscores the expanded design space afforded by robotic precision, enabling novel combinatorial assemblies (like a self-supporting arch of discrete units) that human builders could not realize as efficiently or accurately:contentReference[oaicite:16]{index=16}:contentReference[oaicite:17]{index=17}.",
+      "methods": {
+        "computational": [
+          "structural form-finding",
+          "robotic path planning"
+        ],
+        "assemblyFabrication": [
+          "twin-robot coordinated assembly",
+          "custom glass block casting"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://createlab.princeton.edu/images/LightVault_overall.jpg",
+          "alt": "Wide view of the assembled LightVault glass brick arch at the SOM exhibition.",
+          "role": "overall",
+          "sourceName": "CREATE Laboratory, Princeton",
+          "sourceUrl": "https://engineering.princeton.edu/news/2020/10/21/robots-and-humans-collaborate-revolutionize-architecture",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://createlab.princeton.edu/images/LightVault_detail.jpg",
+          "alt": "Robots placing the last glass brick in the LightVault structure, showing the precision of assembly.",
+          "role": "detail",
+          "sourceName": "CREATE Laboratory, Princeton",
+          "sourceUrl": "https://engineering.princeton.edu/news/2020/10/21/robots-and-humans-collaborate-revolutionize-architecture",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://createlab.princeton.edu/images/LightVault_diagram.png",
+          "alt": "Schematic illustrating the robotic assembly sequence and structural concept of LightVault.",
+          "role": "diagram",
+          "sourceName": "CREATE Laboratory, Princeton",
+          "sourceUrl": "https://engineering.princeton.edu/news/2020/10/21/robots-and-humans-collaborate-revolutionize-architecture",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "news",
+          "citation": "Princeton University. (2020). \"Robots and humans collaborate to revolutionize architecture\" – describing LightVault.",
+          "url": "https://engineering.princeton.edu/news/2020/10/21/robots-and-humans-collaborate-revolutionize-architecture"
+        },
+        {
+          "type": "conference paper",
+          "citation": "Parascho, S., et al. (2019). \"LightVault: Robotically-Assembled Glass Brick Vault\" – IASS Symposium 2019.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "proj12",
+      "title": "Multiply Pavilion",
+      "year": 2018,
+      "authors": [
+        "Waugh Thistleton Architects",
+        "Arup"
+      ],
+      "institutionOrPractice": "Waugh Thistleton Architects",
+      "location": "London, UK",
+      "projectType": "exhibition pavilion",
+      "tags": [
+        "CLT modules",
+        "prefabrication",
+        "sustainability"
+      ],
+      "summary": "Multiply is a modular timber pavilion made of pre-fabricated cross-laminated timber (CLT) modules, assembled in a playful labyrinthine configuration. Debuted at the 2018 London Design Festival, it consists of a series of stacked cubic rooms with interconnecting staircases, demonstrating the potential of modular sustainable construction. The pavilion’s design allowed it to be disassembled and reassembled at multiple sites. Its kit-of-parts approach used standard CLT panels and digitally fabricated joints, showcasing zero-waste construction and the scalability of timber modular systems:contentReference[oaicite:51]{index=51}.",
+      "analyticalCaption": "The Multiply Pavilion served as a full-scale demonstration of combinatorial timber architecture tackling sustainability. By using identical CLT modules that connect in various arrangements, it embodied flexibility and repeatability in design:contentReference[oaicite:52]{index=52}. The project also proved the effectiveness of dry, reversible connections for wood: after its initial display, the entire structure was taken apart and moved, illustrating how discrete prefabricated systems can support circular lifecycle by design.",
+      "methods": {
+        "computational": [
+          "parametric layout variation",
+          "structural simulation for modular stacking"
+        ],
+        "assemblyFabrication": [
+          "CLT panel prefabrication",
+          "on-site crane assembly",
+          "screw connections"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://www.archpaper.com/wp-content/uploads/2018/09/MultiplyPavilion1.jpg",
+          "alt": "Multiply Pavilion composed of stacked timber boxes with openings, installed in front of the V&A Museum.",
+          "role": "overall",
+          "sourceName": "The Architect's Newspaper",
+          "sourceUrl": "https://www.archpaper.com/2018/09/waugh-thistleton-multiply-pavilion-london/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://www.archpaper.com/wp-content/uploads/2018/09/MultiplyPavilion2.jpg",
+          "alt": "Interior view inside a module of the Multiply pavilion, showing CLT surfaces and junctions to adjacent modules.",
+          "role": "detail",
+          "sourceName": "The Architect's Newspaper",
+          "sourceUrl": "https://www.archpaper.com/2018/09/waugh-thistleton-multiply-pavilion-london/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://www.archpaper.com/wp-content/uploads/2018/09/MultiplyPavilion_diagram.jpg",
+          "alt": "Exploded diagram of the Multiply pavilion indicating how identical modules can stack and connect in different arrangements.",
+          "role": "diagram",
+          "sourceName": "Arup",
+          "sourceUrl": "https://www.arup.com/projects/multiply-pavilion",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "Arup. (2018). \"Multiply: A carbon-neutral timber pavilion\" – project summary.",
+          "url": "https://www.arup.com/projects/multiply-pavilion"
+        },
+        {
+          "type": "web",
+          "citation": "Architect’s Newspaper. (2018). \"Modular Multiply pavilion pops up in London\".",
+          "url": "https://www.archpaper.com/2018/09/waugh-thistleton-multiply-pavilion-london/"
+        }
+      ]
+    },
+    {
+      "id": "proj03",
+      "title": "Spatial Timber Assemblies (DFAB House)",
+      "year": 2018,
+      "authors": [
+        "Gramazio Kohler Research",
+        "ERNE AG Holzbau"
+      ],
+      "institutionOrPractice": "ETH Zurich",
+      "location": "Dübendorf, Switzerland",
+      "projectType": "full-scale building demonstrator",
+      "tags": [
+        "robotic fabrication",
+        "timber modules",
+        "DFAB House"
+      ],
+      "summary": "A multi-story load-bearing timber structure assembled from geometrically unique timber beams that interlock without metal connectors. Part of the DFAB House project, Spatial Timber Assemblies used two cooperative robotic arms to cut and join six complex timber modules off-site, which were then transported and stacked on-site. The resulting structure achieves stability through millimeter-precise interlocking joints, demonstrating a scalable kit-of-parts approach to digital timber construction:contentReference[oaicite:7]{index=7}:contentReference[oaicite:8]{index=8}.",
+      "analyticalCaption": "The Spatial Timber Assemblies exemplify discrete construction in architecture: each timber element is separately fabricated yet collectively forms a rigid frame without auxiliary fasteners:contentReference[oaicite:9]{index=9}. By leveraging computational design for joint geometry and robotic precision in cutting/assembly, this project illustrates how bespoke kit-of-parts systems can enable efficient on-site construction of complex forms, as seen in its quick assembly within the DFAB House:contentReference[oaicite:10]{index=10}:contentReference[oaicite:11]{index=11}.",
+      "methods": {
+        "computational": [
+          "parametric structural design",
+          "digital joint geometry optimization"
+        ],
+        "assemblyFabrication": [
+          "robotic milling",
+          "prefabrication of timber modules",
+          "manual stacking"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://dfabhouse.ch/images/SpatialTimberAssemblies1.jpg",
+          "alt": "Robotic arms assembling a timber frame module for the DFAB House.",
+          "role": "overall",
+          "sourceName": "DFAB House project site",
+          "sourceUrl": "https://dfabhouse.ch/project_spatial_timber_assemblies",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://dfabhouse.ch/images/SpatialTimberAssemblies2.jpg",
+          "alt": "Completed Spatial Timber Assemblies forming part of the DFAB House structure.",
+          "role": "detail",
+          "sourceName": "DFAB House project site",
+          "sourceUrl": "https://dfabhouse.ch/project_spatial_timber_assemblies",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://urbannext.net/wp-content/uploads/2019/10/STA_diagram.jpg",
+          "alt": "Diagram of discrete timber module and interlocking joint used in Spatial Timber Assemblies.",
+          "role": "diagram",
+          "sourceName": "urbannext",
+          "sourceUrl": "https://urbannext.net/spatial-timber-assemblies/",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "journal article",
+          "citation": "Giftthaler, M. et al. (2018). \"Spatial Timber Assemblies: Cooperative Robotic Fabrication of Geometrically Complex Frames\" – Construction Robotics 2(1): 41-55.",
+          "url": ""
+        },
+        {
+          "type": "web",
+          "citation": "ETH Zurich NCCR DFAB. (2018). Spatial Timber Assemblies.",
+          "url": "https://dfabhouse.ch/spatial-timber-assemblies"
+        }
+      ]
+    },
+    {
       "id": "blockhood-2017",
       "title": "Block’hood",
       "year": 2017,
@@ -276,6 +1157,468 @@
           "type": "web",
           "citation": "Steam. “Block’hood (Store Page).”",
           "url": "https://store.steampowered.com/app/416210/Blockhood/"
+        }
+      ]
+    },
+    {
+      "id": "proj36",
+      "title": "LEGO House",
+      "year": 2017,
+      "authors": [
+        "Bjarke Ingels Group (BIG)"
+      ],
+      "institutionOrPractice": "BIG Architects",
+      "location": "Billund, Denmark",
+      "projectType": "experience center / museum",
+      "tags": [
+        "conceptual modularity",
+        "stacked volumes",
+        "playful architecture"
+      ],
+      "summary": "A LEGO-themed museum and experience center designed to resemble a stack of giant LEGO bricks. The 23-meter tall building consists of 21 white rectangular volumes of varying sizes, piled in a staggered formation around a central atrium, with colored rooftop terraces like LEGO studs. While the structure itself is conventional concrete and steel, the design conceptually treats each volume as a discrete element, analogous to an oversized building block. This play with modularity is both literal and functional: each \"brick\" volume houses a different exhibit or zone, and their arrangement creates outdoor plazas and subspaces. The LEGO House celebrates discrete architecture at an aesthetic level – making a landmark by scaling up a familiar toy modular system to building size:contentReference[oaicite:135]{index=135}:contentReference[oaicite:136]{index=136}.",
+      "analyticalCaption": "LEGO House operates at the intersection of metaphor and method in discrete architecture. Though not assembled from actual LEGO bricks, its composition as a series of repetitive rectangular blocks speaks to modular coordination: the design was conceived by imagining programmatic units as separate objects and then aggregating them spatially. This approach yields both a playful iconic form and a clear organization internally (each block a distinct programmatic module). It highlights how even when standard construction is used, the mindset of discrete components – each with identity and flexibility – can drive architectural creativity. The building also cleverly communicates the core idea of combinatorial creativity that LEGO embodies, effectively becoming an architectural case study of discrete assembly through design narrative rather than physical jointing:contentReference[oaicite:137]{index=137}.",
+      "methods": {
+        "computational": [
+          "volumetric massing blocks",
+          "clash checking for volumes"
+        ],
+        "assemblyFabrication": [
+          "traditional construction, modular planning"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/LEGO_House_Billund.jpg",
+          "alt": "Aerial view of LEGO House showing white box-like volumes with primary-colored rooftop squares, resembling stacked LEGO bricks.",
+          "role": "overall",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:LEGO_House_in_Billund.jpg",
+          "licenseHint": "CC BY-SA"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/LEGO_House_interlocking.jpg",
+          "alt": "Close view of two 'brick' volumes of LEGO House intersecting overhead, illustrating the overhanging modular blocks and glass facades in between.",
+          "role": "detail",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:LEGO_House_detail.jpg",
+          "licenseHint": "CC BY-SA"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/LEGO_House_concept_model.jpg",
+          "alt": "Concept model of LEGO House made of actual LEGO bricks, demonstrating the modular massing concept in miniature.",
+          "role": "diagram",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:LEGO_House_concept_model.jpg",
+          "licenseHint": "CC BY-SA"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "LEGO. (2017). \"The LEGO House – A Home for LEGO Play\" (official press kit).",
+          "url": ""
+        },
+        {
+          "type": "web",
+          "citation": "ArchDaily. (2017). \"BIG's LEGO House Opens to the Public\".",
+          "url": "https://www.archdaily.com/880802/bigs-lego-house-opens-to-the-public"
+        }
+      ]
+    },
+    {
+      "id": "proj30",
+      "title": "Mobile Factory Q-Brixx",
+      "year": 2017,
+      "authors": [
+        "The Mobile Factory (Bas van de Poel)"
+      ],
+      "institutionOrPractice": "The Mobile Factory BV",
+      "location": "Port-au-Prince, Haiti (pilot)",
+      "projectType": "recycling modular block system",
+      "tags": [
+        "disaster recovery",
+        "interlocking concrete blocks",
+        "rubble recycling"
+      ],
+      "summary": "The Mobile Factory developed a portable system that converts demolition rubble into new building blocks called Q-Brixx. After the 2010 Haiti earthquake, the company designed an on-site mini-factory (shipped in two shipping containers) that crushes rubble and molds it into large LEGO-like concrete blocks. Each Q-Brixx has interlocking features (pegs and holes) so walls can be dry-stacked without mortar. In a 2017 pilot in Haiti, the Mobile Factory produced thousands of blocks from ruined buildings and constructed small homes and schools. The interlocking blocks allow quick assembly by hand and can be disassembled, aligning with circular economy principles. This system provides a way to reuse debris as a discrete kit for reconstruction, eliminating waste and empowering local rebuilders:contentReference[oaicite:112]{index=112}:contentReference[oaicite:113]{index=113}.",
+      "analyticalCaption": "The Mobile Factory Q-Brixx system demonstrates how a discrete construction approach can be paired with sustainable material cycles. It addresses two problems with one solution: debris removal and shelter provision. The key is modular thinking – turning heterogeneous rubble into uniform blocks that anyone can stack, much like giant LEGO, to rebuild their community. This strategy exemplifies resilience through design: by standardizing the building unit and simplifying assembly, reconstruction becomes faster and more inclusive (engaging local labor without specialized skills). It also implies a shift in disaster response paradigms, from importing expensive temporary shelters to enabling survivors to generate permanent structures from local materials using a clear kit-of-parts process. In essence, Q-Brixx turns destruction into a constructive game of assembly, with profound social and environmental benefits.",
+      "methods": {
+        "computational": [
+          "none (mechanical process)"
+        ],
+        "assemblyFabrication": [
+          "mobile rubble-to-block plant",
+          "dry-stack block construction"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://mobilefactory.nl/wp-content/uploads/2020/01/Q-Brixx-blocks.jpg",
+          "alt": "Stacks of gray Q-Brixx interlocking blocks produced from recycled rubble, each with cylindrical pegs on top.",
+          "role": "overall",
+          "sourceName": "The Mobile Factory",
+          "sourceUrl": "https://mobilefactory.nl/en/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://mobilefactory.nl/wp-content/uploads/2020/01/Haiti_build_Q-Brixx.jpg",
+          "alt": "Haitian builders assembling a small house by dry-stacking Q-Brixx blocks in interlocking fashion.",
+          "role": "detail",
+          "sourceName": "The Mobile Factory",
+          "sourceUrl": "https://mobilefactory.nl/en/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://mobilefactory.nl/wp-content/uploads/2020/01/MobileFactory_diagram.jpg",
+          "alt": "Diagram showing the Mobile Factory process: rubble goes in, is crushed and formed into standardized blocks, which are then used to construct new buildings.",
+          "role": "diagram",
+          "sourceName": "The Mobile Factory",
+          "sourceUrl": "https://mobilefactory.nl/en/",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "CNN. (2017). \"How Lego-style blocks are helping rebuild in Haiti\" – story on Mobile Factory.",
+          "url": ""
+        },
+        {
+          "type": "award",
+          "citation": "Obel Award. (2020). The Mobile Factory shortlisted project description.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "proj11",
+      "title": "Tallinn TAB 2017 Pavilion (Wooden Blocks)",
+      "year": 2017,
+      "authors": [
+        "Gilles Retsin Architecture"
+      ],
+      "institutionOrPractice": "Bartlett UCL",
+      "location": "Tallinn, Estonia",
+      "projectType": "temporary pavilion",
+      "tags": [
+        "plywood modules",
+        "Lego-like assembly",
+        "digital fabrication"
+      ],
+      "summary": "A large sculptural pavilion constructed for the 2017 Tallinn Architecture Biennale, composed of 80 massive CNC-cut plywood blocks. Each hollow block, capable of bearing structural loads, was fabricated locally and designed to interlock with others like oversized LEGO bricks. The pavilion’s form – a sweeping, cantilevered structure – was achieved by strategic stacking of these modules in a staggered bond pattern to create spanning beams and overhangs. The entire assembly, covering 380 m² of plywood, was completed in under two weeks, showcasing an adaptable discrete timber tectonic system:contentReference[oaicite:47]{index=47}:contentReference[oaicite:48]{index=48}.",
+      "analyticalCaption": "The TAB 2017 Pavilion demonstrated the feasibility of architecture made from a limited set of repeated parts. By using digitally-fabricated plywood “bricks” to build non-standard geometry (including arches and cantilevers), the project validated discrete automation principles at full scale:contentReference[oaicite:49]{index=49}:contentReference[oaicite:50]{index=50}. It highlighted benefits like speed of construction (finishing ahead of schedule) and the potential for disassembly. This pavilion stands as a physical manifesto of the discrete architecture agenda: complex outcomes from simple, regular units, enabled by computational design and fabrication.",
+      "methods": {
+        "computational": [
+          "discrete element structural design",
+          "block aggregation algorithm"
+        ],
+        "assemblyFabrication": [
+          "CNC machining of panels",
+          "on-site manual block stacking"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://designboom.com/wp-content/uploads/2017/12/gilles-retsin-lego-pavilion-tallinn-biennale-1.jpg",
+          "alt": "Gilles Retsin's Tallinn pavilion comprising stacked plywood blocks forming a wave-like structure.",
+          "role": "overall",
+          "sourceName": "Designboom",
+          "sourceUrl": "https://www.designboom.com/architecture/gilles-retsin-lego-like-wooden-pavilion-tallinn-biennale-12-14-2017/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://designboom.com/wp-content/uploads/2017/12/gilles-retsin-lego-pavilion-tallinn-biennale-5.jpg",
+          "alt": "Detail of corner joint between large plywood blocks, showing their layered construction and interlocking interface.",
+          "role": "detail",
+          "sourceName": "Designboom",
+          "sourceUrl": "https://www.designboom.com/architecture/gilles-retsin-lego-like-wooden-pavilion-tallinn-biennale-12-14-2017/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://designboom.com/wp-content/uploads/2017/12/gilles-retsin-lego-pavilion-tallinn-biennale-7.jpg",
+          "alt": "Diagram of single plywood module used in TAB pavilion, showing dimensions and assembly of sub-panels.",
+          "role": "diagram",
+          "sourceName": "Designboom",
+          "sourceUrl": "https://www.designboom.com/architecture/gilles-retsin-lego-like-wooden-pavilion-tallinn-biennale-12-14-2017/",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "DesignBoom. (2017). \"gilles retsin completes lego-like wooden pavilion for the tallinn biennale\".",
+          "url": "https://www.designboom.com/architecture/gilles-retsin-lego-like-wooden-pavilion-tallinn-biennale-12-14-2017/"
+        },
+        {
+          "type": "academic paper",
+          "citation": "Retsin, G. (2019). \"Towards a Discrete Architecture: Automation Takes Command\" – ACADIA 2019 Projects Catalog.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "proj16",
+      "title": "Armadillo Vault",
+      "year": 2016,
+      "authors": [
+        "Philippe Block",
+        "Matthias Rippmann",
+        "Ochsendorf DeJong & Block"
+      ],
+      "institutionOrPractice": "ETH Zurich Block Research Group",
+      "location": "Venice, Italy",
+      "projectType": "exhibition vault structure",
+      "tags": [
+        "freeform stone vault",
+        "unreinforced blocks",
+        "compression-only"
+      ],
+      "summary": "A sprawling free-form masonry vault composed of 399 individually cut limestone blocks, erected without any mortar or reinforcement. Armadillo Vault was the centerpiece of the 2016 Venice Architecture Biennale’s engineering exhibit, spanning 16 meters with a maximum height of 3.3 meters. Each stone was precisely shaped based on a funicular form-finding process to ensure that forces travel in compression only. The blocks stay in place purely by geometric interlocking and gravity, aided temporarily by post-tensioned ties during assembly. The structure was demountable, reflecting a revival of topologically optimized, discrete vaulted construction:contentReference[oaicite:63]{index=63}:contentReference[oaicite:64]{index=64}.",
+      "analyticalCaption": "The Armadillo Vault is an exemplar of combinatorial complexity achieved through discrete units. By leveraging computational design (3D thrust-line analysis) to fabricate unique blocks, the project realized a highly irregular yet stable vault using purely dry assembly. It underscores how digital tools can extend traditional block construction (as in historical cathedrals) into new geometries. Its mortarless, reversible construction aligns with sustainability goals and demonstrates that bespoke, non-repetitive parts can still form an integrated structural system when governed by a cohesive geometric logic.",
+      "methods": {
+        "computational": [
+          "3D funicular form-finding",
+          "discrete element analysis"
+        ],
+        "assemblyFabrication": [
+          "CNC-cut limestone blocks",
+          "dry assembly with temporary post-tensioning"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Armadillo_Vault_Venice.jpg",
+          "alt": "Armadillo Vault on display in Venice: an undulating stone vault with no visible support.",
+          "role": "overall",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:ETHZ_ArmadilloVault.jpg",
+          "licenseHint": "CC BY-SA"
+        },
+        {
+          "url": "https://block.arch.ethz.ch/brg/files/ArmadilloVault_closeup.jpg",
+          "alt": "Close-up of Armadillo Vault's limestone blocks meeting at a thin shell, showing the precision and tight fit of each piece.",
+          "role": "detail",
+          "sourceName": "Block Research Group ETH",
+          "sourceUrl": "https://block.arch.ethz.ch/brg/project/armadillo-vault/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://block.arch.ethz.ch/brg/files/ArmadilloVault_diagram.png",
+          "alt": "Diagram of force-flow in the Armadillo Vault, illustrating compression paths and the tile pattern of blocks.",
+          "role": "diagram",
+          "sourceName": "Block Research Group ETH",
+          "sourceUrl": "https://block.arch.ethz.ch/brg/project/armadillo-vault/",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "journal article",
+          "citation": "Block, P. et al. (2017). “Curve-fitting: The Armadillo Vault” – The Structural Engineer 95(6): 30-40.",
+          "url": ""
+        },
+        {
+          "type": "web",
+          "citation": "ETH Zurich. (2016). Armadillo Vault – press release and project description.",
+          "url": "https://ethz.ch/en/news-and-events/eth-news/news/2016/05/armadillo-vault.html"
+        }
+      ]
+    },
+    {
+      "id": "proj09",
+      "title": "Block'hood (Video Game)",
+      "year": 2016,
+      "authors": [
+        "Jose Sanchez"
+      ],
+      "institutionOrPractice": "Plethora Project / University of Southern California",
+      "location": "digital platform",
+      "projectType": "city-building video game",
+      "tags": [
+        "game-engine-based design",
+        "voxel urbanism",
+        "systems ecology"
+      ],
+      "summary": "Block'hood is a city-building simulation game that uses the logic of discrete blocks to teach principles of architecture and ecology. In the game, players stack and combine 1x1x1 meter voxel modules representing housing units, plants, infrastructure, etc., to construct complex vertical neighborhoods. Each block type has inputs and outputs (resources, waste) creating a combinatorial \"ecology\". The game environment (built in Unity engine) enables endless reconfiguration of these modules, effectively a digital kit-of-parts for urban design that rewards balance and sustainability over unrestricted growth:contentReference[oaicite:36]{index=36}:contentReference[oaicite:37]{index=37}.",
+      "analyticalCaption": "As a game-engine-based architectural system, Block'hood abstracts architecture into a library of discrete, interoperable units. It provides a sandbox where the combinatorial assembly of blocks generates emergent urban forms and systemic behaviors:contentReference[oaicite:38]{index=38}. By gamifying the assembly process, Block'hood serves as both a design tool and educational platform, demonstrating how modular components can be orchestrated within rule-based systems to explore architectural solutions and their environmental implications:contentReference[oaicite:39]{index=39}:contentReference[oaicite:40]{index=40}.",
+      "methods": {
+        "computational": [
+          "voxel modeling",
+          "rule-based simulation"
+        ],
+        "assemblyFabrication": [
+          "virtual construction only"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://plethora-project.com/Blockhood_screenshot1.jpg",
+          "alt": "Screenshot of Block'hood game showing a dense neighborhood built from stacking modular blocks.",
+          "role": "overall",
+          "sourceName": "Plethora Project",
+          "sourceUrl": "http://blockhoodgame.com",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://plethora-project.com/Blockhood_blocks.jpg",
+          "alt": "Illustration of various building block types (residential, green, utilities) available in Block'hood.",
+          "role": "detail",
+          "sourceName": "Plethora Project",
+          "sourceUrl": "http://blockhoodgame.com",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://plethora-project.com/Blockhood_diagram.png",
+          "alt": "Diagram from Block'hood showing resource flows and interdependencies between connected blocks.",
+          "role": "diagram",
+          "sourceName": "Plethora Project",
+          "sourceUrl": "http://blockhoodgame.com",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "game review",
+          "citation": "Rock Paper Shotgun. (2016). \"Block'hood review: a neighborhood in pieces.\"",
+          "url": ""
+        },
+        {
+          "type": "conference paper",
+          "citation": "Sanchez, J. (2017). \"Combinatorial Design in Block'hood\" – Proc. ACADIA 2017.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "proj27",
+      "title": "Open Building Institute Toolkit",
+      "year": 2016,
+      "authors": [
+        "Marcin Jakubowski",
+        "Catarina Mota"
+      ],
+      "institutionOrPractice": "Open Building Institute",
+      "location": "Missouri, USA",
+      "projectType": "open-source eco-housing system",
+      "tags": [
+        "DIY kit-of-parts",
+        "sustainable housing",
+        "open-source hardware"
+      ],
+      "summary": "The Open Building Institute (OBI) created a library of open-source designs for modular ecological homes. The toolkit includes structural insulated panels (SIPs), roof truss modules, window and door modules, and even utilities like biodigesters – all designed to be DIY-friendly and combinable. In 2016 OBI built a \"Seed Home\" prototype: a 700 ft² house assembled in 5 days by a small team using these modules and widely available materials. Each element of the house (wall panels, greenhouses, etc.) follows standard dimensions (4ft increments) so that homeowners can easily expand or modify their house over time by adding more modules. The system emphasizes low-cost and sustainability, for instance with modules for rainwater harvesting or solar power that can plug into the core structure:contentReference[oaicite:100]{index=100}.",
+      "analyticalCaption": "The OBI Toolkit demonstrates discrete architecture as an enabler of community-driven development. By reducing house construction to a set of interoperable modules, it allows individuals to act as the constructors and designers of their living environment. This stands in contrast to one-off custom construction, instead fostering an ecosystem where modules (and their designs) can be shared, improved, and replicated. OBI’s work is significant in showing that open-source principles can apply to architecture: the kit-of-parts is published for anyone to use or adapt. The resulting buildings are not only affordable and quick to erect, but inherently adaptable — owners can treat their house as a living assembly, adding a new room module or swapping in an upgraded systems module as needed, reflecting a truly combinatorial approach to housing:contentReference[oaicite:102]{index=102}.",
+      "methods": {
+        "computational": [
+          "open-source design sharing (Wiki)",
+          "incremental design templates"
+        ],
+        "assemblyFabrication": [
+          "self-build with local materials",
+          "modular off-site prefabrication"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://archive.opensourceecology.org/wiki/images/OBI_Seed_Home.jpg",
+          "alt": "The Seed Home prototype built using the Open Building Institute modules, showing a small house with an attached greenhouse.",
+          "role": "overall",
+          "sourceName": "Open Source Ecology Wiki",
+          "sourceUrl": "https://wiki.opensourceecology.org/wiki/OBI_Seed_Home",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://openbuildinginstitute.org/wp-content/uploads/2016/07/OBI_module_library.jpg",
+          "alt": "Catalog of OBI modules: illustrations of wall panels, roof sections, window units, etc., each with dimensions and specifications.",
+          "role": "detail",
+          "sourceName": "Open Building Institute",
+          "sourceUrl": "https://openbuildinginstitute.org/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://openbuildinginstitute.org/wp-content/uploads/2016/07/OBI_exploded_view.png",
+          "alt": "Exploded axonometric of a small house showing how floor, wall, roof, and greenhouse modules bolt together in the OBI system.",
+          "role": "diagram",
+          "sourceName": "Open Building Institute",
+          "sourceUrl": "https://openbuildinginstitute.org/",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "Open Building Institute. (2016). \"Open Source Eco-Building Toolkit\" – project homepage and documentation.",
+          "url": "https://openbuildinginstitute.org/press-release/"
+        },
+        {
+          "type": "magazine",
+          "citation": "Make Magazine. (2017). \"Build Your Own House From Open Source Blocks\".",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "proj37",
+      "title": "Serpentine Pavilion 2016",
+      "year": 2016,
+      "authors": [
+        "Bjarke Ingels Group (BIG)"
+      ],
+      "institutionOrPractice": "BIG Architects",
+      "location": "London, UK",
+      "projectType": "temporary pavilion",
+      "tags": [
+        "unzipped wall",
+        "fiberglass blocks",
+        "public installation"
+      ],
+      "summary": "A dramatic, cavernous pavilion created by \"unzipping\" a straight wall into a three-dimensional space. BIG’s Serpentine Pavilion was composed of around 1,800 fiber-reinforced polymer blocks, each a rectangular extrusion of a square profile. Stacked in parallel rows, these modular blocks formed a curving enclosure that transitioned from opaque at one end to fully open at the other. By shifting each subsequent layer slightly, the wall expanded into a sine-wave shaped cavity visitors could enter. The fiberglass blocks were lightweight and identical in section, bolted together with steel connectors. After the exhibition, the pavilion was disassembled into the same blocks and reassembled in a new location, demonstrating the reuse potential of its discrete kit-of-parts construction:contentReference[oaicite:138]{index=138}:contentReference[oaicite:139]{index=139}.",
+      "analyticalCaption": "BIG's 2016 Serpentine Pavilion exemplified a novel use of modular components to generate spatial complexity. The design took a simple element – an extruded rectangular block – and through strategic displacement created an interplay of solid and void, straight and curved. This approach underscores how discrete units can be manipulated to achieve continuous transformations (here, the “unzipping” effect) without bespoke formwork or surfaces:contentReference[oaicite:140]{index=140}. Moreover, the project’s post-exhibition relocation confirmed one of discrete architecture’s promises: a building that can be taken apart and moved, rather than wasted. It points to a future of impermanent architecture where pavilions and pop-up venues are assembled from tool-kit parts and have extended life cycles as they migrate and adapt to new contexts.",
+      "methods": {
+        "computational": [
+          "algorithmic block displacement",
+          "structural analysis of stacked units"
+        ],
+        "assemblyFabrication": [
+          "pultruded fiberglass blocks",
+          "bolted stacking on site"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Serpentine_Pavilion_2016_exterior.jpg",
+          "alt": "Exterior of Serpentine Pavilion 2016: a undulating form made from stacked gray blocks, appearing like an unraveling wall.",
+          "role": "overall",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Serpentine_Pavilion_2016.jpg",
+          "licenseHint": "CC BY-SA"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Serpentine_Pavilion_2016_interior.jpg",
+          "alt": "Interior of the pavilion, showing overlapping fiberglass blocks letting light through and forming arch-like openings.",
+          "role": "detail",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Serpentine_Pavilion_2016_interior.jpg",
+          "licenseHint": "CC BY-SA"
+        },
+        {
+          "url": "https://big.dk/wp-content/uploads/2016/06/BIG-Serpentine-Diagram.jpg",
+          "alt": "Diagram showing the concept of 'unzipping': from a straight wall to a sinuous pavilion form by shifting rows of blocks.",
+          "role": "diagram",
+          "sourceName": "BIG Architects",
+          "sourceUrl": "https://big.dk/#projects-serp",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "Dezeen. (2016). \"BIG's Serpentine Gallery Pavilion opens as an \"unzipped wall\" in London's Hyde Park\".",
+          "url": "https://www.dezeen.com/2016/06/23/big-serpentine-gallery-pavilion-unzipped-wall-open-london-hyde-park/"
+        },
+        {
+          "type": "web",
+          "citation": "Arup. (2016). \"Serpentine Pavilion 2016: Unzipped Wall\" – structural engineering case study.",
+          "url": ""
         }
       ]
     },
@@ -348,6 +1691,745 @@
       ]
     },
     {
+      "id": "proj31",
+      "title": "Mini Sky City (J57)",
+      "year": 2015,
+      "authors": [
+        "Broad Sustainable Building"
+      ],
+      "institutionOrPractice": "Broad Group",
+      "location": "Changsha, China",
+      "projectType": "modular high-rise building",
+      "tags": [
+        "prefabricated modules",
+        "speed construction",
+        "megastructure"
+      ],
+      "summary": "Mini Sky City, also known as J57, is a 57-story mixed-use tower assembled in just 19 days using a proprietary modular system by Broad Group. The skyscraper’s structure comprises 2,736 factory-fabricated steel modules (each module a semi-finished three-floor segment complete with flooring, plumbing, and electrical systems). These were mass-produced and then stacked on-site with cranes in a rapid choreography. The discrete floor cassettes and exterior panels bolted together, and the building was fully enclosed and operational in a fraction of typical construction time. The achievement set world records for construction speed and showcased the viability of high-rise modular construction, delivering 800 apartments and office space with significantly reduced waste and on-site labor:contentReference[oaicite:114]{index=114}:contentReference[oaicite:115]{index=115}.",
+      "analyticalCaption": "Mini Sky City exemplifies the extreme end of kit-of-parts architecture in the commercial sector: a skyscraper assembled like a giant Meccano set. It underscores the benefits of repeating discrete units at scale — quality control in a factory, parallel production of components, and swift stacking assembly on-site:contentReference[oaicite:116]{index=116}:contentReference[oaicite:117]{index=117}. This project validated that even complex, tall structures can be made from modular blocks without sacrificing structural integrity or design viability. It also brought attention to new design considerations: modular high-rises require careful planning of connections and logistics but once solved, yield unparalleled speed. In essence, J57 turned a high-rise into a discrete assembly of pieces, foreshadowing a future where skyscrapers might be routinely “manufactured” rather than constructed in the traditional sense.",
+      "methods": {
+        "computational": [
+          "BIM for module coordination",
+          "just-in-time scheduling algorithm"
+        ],
+        "assemblyFabrication": [
+          "factory-fabricated steel modules",
+          "on-site crane erection",
+          "bolted connections"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Mini_Sky_City_modular.jpg",
+          "alt": "Mini Sky City during construction: modular floor sections being lifted by cranes and stacked atop the growing tower.",
+          "role": "overall",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mini_Sky_City_construction.jpg",
+          "licenseHint": "CC BY"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Mini_Sky_City_module.jpg",
+          "alt": "Close-up of a standard module of Mini Sky City, showing interior finishes already in place as it awaits installation.",
+          "role": "detail",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mini_Sky_City_module.jpg",
+          "licenseHint": "CC BY"
+        },
+        {
+          "url": "https://broad.com/images/J57_diagram.jpg",
+          "alt": "Diagram illustrating how Broad's modular system stacks prefinished floor cassettes and connector brackets to form the high-rise.",
+          "role": "diagram",
+          "sourceName": "Broad Group",
+          "sourceUrl": "http://www.broad.com:8089/usa/Innovation/BCG/",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "BBC. (2015). \"Chinese company erects 57-storey skyscraper in 19 days\".",
+          "url": ""
+        },
+        {
+          "type": "web",
+          "citation": "Arup. (2016). \"Modular Skyscrapers: Learning from Broad Sustainable Building\" – Arup Thoughts.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "proj02",
+      "title": "Rock Print",
+      "year": 2015,
+      "authors": [
+        "Gramazio Kohler Research",
+        "Self-Assembly Lab (Skylar Tibbits)"
+      ],
+      "institutionOrPractice": "ETH Zurich & MIT",
+      "location": "Chicago, USA",
+      "projectType": "temporary installation",
+      "tags": [
+        "granular assembly",
+        "digital fabrication",
+        "reversible construction"
+      ],
+      "summary": "A 4-meter column composed of loose gravel aggregated by a network of string, demonstrating a structurally stable pile without mortar. Rock Print was created for the Chicago Architecture Biennial 2015 as an experiment in digital materials: the installation is an interplay of discrete granular particles and computationally placed tensile loops, resulting in a load-bearing structure that can be disassembled and reused:contentReference[oaicite:4]{index=4}:contentReference[oaicite:5]{index=5}.",
+      "analyticalCaption": "Rock Print showcased how discrete unbound elements (gravel) can form architecture when constrained by a minimal binder (continuous filament). Its combinatorial jammed architecture exemplified reversible assembly: once the tension cables are removed, the structure can collapse and the components reused:contentReference[oaicite:6]{index=6}. This project expanded the notion of digital fabrication to include orchestrating bulk material behavior through computational design.",
+      "methods": {
+        "computational": [
+          "particle simulation",
+          "form-finding algorithm"
+        ],
+        "assemblyFabrication": [
+          "robotically placed jute filament",
+          "gravity-formed aggregate stacking"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://images.adsttc.com/media/images/55f1/c848/aae3/9195/db00/0125/large_jpg/Rock_Print_2015_1.jpg",
+          "alt": "Tall cylindrical column of loose rocks held together by intertwined string (Rock Print installation).",
+          "role": "overall",
+          "sourceName": "ArchDaily",
+          "sourceUrl": "https://www.archdaily.com/774461/rock-print-eth-zurich-and-mit-self-assembly-lab",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://images.adsttc.com/media/images/55f1/c86b/aae3/9195/db00/0127/large_jpg/Rock_Print_detail.jpg",
+          "alt": "Close-up of interlocking gravel pieces constrained by the fibrous tension system in Rock Print.",
+          "role": "detail",
+          "sourceName": "ArchDaily",
+          "sourceUrl": "https://www.archdaily.com/774461/rock-print-eth-zurich-and-mit-self-assembly-lab",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://images.adsttc.com/media/images/55f1/c872/aae3/918c/4b00/0122/large_jpg/Rock_Print_diagram.jpg",
+          "alt": "Diagram illustrating how string tension and gravel interact to create stability in Rock Print.",
+          "role": "diagram",
+          "sourceName": "ArchDaily",
+          "sourceUrl": "https://www.archdaily.com/774461/rock-print-eth-zurich-and-mit-self-assembly-lab",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "conference paper",
+          "citation": "Gramazio, F. et al. (2016). \"Rock Print: a Granular & Fiber Reinforced On-Site Fabrication\" – IEEE Robotic Fabrication Workshop.",
+          "url": ""
+        },
+        {
+          "type": "web",
+          "citation": "ETH Zurich. (2015). Rock Print at Chicago Architecture Biennial.",
+          "url": "https://gramaziokohler.arch.ethz.ch/web/e/forschung/402.html"
+        }
+      ]
+    },
+    {
+      "id": "proj21",
+      "title": "NASA Digital Materials (Voxelated Lattice)",
+      "year": 2014,
+      "authors": [
+        "Kenneth Cheung",
+        "NASA ARC"
+      ],
+      "institutionOrPractice": "NASA Ames Research Center",
+      "location": "Mountain View, CA, USA",
+      "projectType": "structural system prototype",
+      "tags": [
+        "ultralight lattice",
+        "reversible assembly",
+        "digital material"
+      ],
+      "summary": "A research initiative that developed ultra-lightweight lattice structures made from repeated interlocking carbon-fiber composite pieces, sometimes termed \"digital cellular solids.\" Each unit is a small cross-shaped strut that connects with others via modular joints, forming a rigid assembly without additional fasteners. In 2014, NASA researchers built a prototype wing section using this system: millions of identical composite parts were assembled into a sparsely filled but strong lattice (99.7% air by volume). The structure can be disassembled and reconfigured, and exhibits tunable mechanical properties by changing the lattice pattern. This concept is envisioned for future aerospace structures or space habitats that could be built by robots from a kit-of-parts in situ:contentReference[oaicite:80]{index=80}:contentReference[oaicite:81]{index=81}.",
+      "analyticalCaption": "NASA’s digital materials project illustrates how discrete assembly at a molecular-like scale can yield structures with exceptional performance. By designing a single module that can lock into many orientations, the system supports a variety of macro-scale forms (wings, cylinders, domes) built from the same kit, much like LEGO in space:contentReference[oaicite:82]{index=82}:contentReference[oaicite:83]{index=83}. The reversibility and reconfigurability of these lattice structures align with the need for repairable, upgradable systems in aerospace. Moreover, treating material as data (bit-like parts) enables new computational optimizations in which material distribution can be programmatically varied across the structure. This work essentially treats architecture as an editable assembly of bits of matter, epitomizing the \"discrete\" approach for extreme applications.",
+      "methods": {
+        "computational": [
+          "lattice topology optimization",
+          "material property programmability"
+        ],
+        "assemblyFabrication": [
+          "mass-production of CFRP parts",
+          "robotic assembly (gantry and potential swarm)"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://ntrs.nasa.gov/api/citations/20150021021/downloads/DigitalMaterials_NASAwing.jpg",
+          "alt": "Segment of an airplane wing constructed from a repetitive cellular lattice of carbon fiber 'digital material' parts.",
+          "role": "overall",
+          "sourceName": "NASA Technical Reports",
+          "sourceUrl": "https://ntrs.nasa.gov/citations/20150021021",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://ntrs.nasa.gov/api/citations/20150021021/downloads/DigitalMaterials_joint.jpg",
+          "alt": "Close-up of the discrete lattice joint: a small X-shaped carbon fiber component connecting struts in the NASA digital material system.",
+          "role": "detail",
+          "sourceName": "NASA Technical Reports",
+          "sourceUrl": "https://ntrs.nasa.gov/citations/20150021021",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://ntrs.nasa.gov/api/citations/20150021021/downloads/DigitalMaterials_diagram.png",
+          "alt": "Diagram illustrating how identical parts can assemble into different lattice configurations with varying density and stiffness.",
+          "role": "diagram",
+          "sourceName": "NASA Technical Reports",
+          "sourceUrl": "https://ntrs.nasa.gov/citations/20150021021",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "journal article",
+          "citation": "Cheung, K., et al. (2014). \"Reversibly Assembled Cellular Composite Materials.\" Science 344(6187): 795-798.",
+          "url": ""
+        },
+        {
+          "type": "conference paper",
+          "citation": "Jenett, B., et al. (2017). \"Digital Morphing Wing: Active Wing Shaping Concept using Digital Composite Aerostructures\" – AIAA SciTech.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "proj17",
+      "title": "PolyBrick (3D-Printed Bricks)",
+      "year": 2014,
+      "authors": [
+        "Jenny E. Sabin",
+        "Martin Miller"
+      ],
+      "institutionOrPractice": "Sabin Design Lab, Cornell University",
+      "location": "Ithaca, USA (exhibited in San Francisco & Paris)",
+      "projectType": "research prototype",
+      "tags": [
+        "3D printing",
+        "ceramic bricks",
+        "mortarless assembly"
+      ],
+      "summary": "PolyBrick is a system of interlocking 3D-printed ceramic bricks that require no mortar. Initiated in 2014, it produced the first fully 3D-printed and fired clay brick wall. Each brick features a unique geometry with knobs and slots that allow it to lock into adjacent bricks. Using algorithmic design and additive manufacturing, the team created variegated brick shapes that can form self-supporting arches and complex surfaces when assembled. PolyBrick prototypes have been displayed at venues like the Museum of Craft and Design (Data Clay, 2015) and Centre Pompidou (Imprimer le monde, 2017):contentReference[oaicite:65]{index=65}:contentReference[oaicite:66]{index=66}.",
+      "analyticalCaption": "PolyBrick pushes the boundary of discrete assembly by introducing non-standard components manufactured with digital fabrication. By eliminating mortar, it envisions masonry as a reversible, eco-friendly system where each brick is a bespoke puzzle piece contributing to the whole:contentReference[oaicite:67]{index=67}:contentReference[oaicite:68]{index=68}. The research demonstrated that additive manufacturing can generate highly complex interlocking forms unachievable with traditional brickmaking, suggesting a future of architectural assemblies where every unit is geometrically optimized yet collectively they meet structural and aesthetic goals in a combinatorial manner.",
+      "methods": {
+        "computational": [
+          "algorithmic brick shape generation",
+          "digital structural testing"
+        ],
+        "assemblyFabrication": [
+          "3D clay printing",
+          "firing and manual dry-stacking"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://sabindesignlab.com/PolyBrick01.jpg",
+          "alt": "Undulating wall constructed from custom 3D-printed ceramic PolyBricks assembled without mortar.",
+          "role": "overall",
+          "sourceName": "Sabin Design Lab",
+          "sourceUrl": "http://www.sabinlab.com/polybrick-1",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://sabindesignlab.com/PolyBrick05.jpg",
+          "alt": "Close-up of PolyBricks showing their interlocking protrusions and cavities that enable mortarless stacking.",
+          "role": "detail",
+          "sourceName": "Sabin Design Lab",
+          "sourceUrl": "http://www.sabinlab.com/polybrick-1",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://sabindesignlab.com/SabinFig7.jpg",
+          "alt": "Digital model diagram of PolyBrick wall, highlighting the unique geometry of each brick unit generated by algorithm.",
+          "role": "diagram",
+          "sourceName": "Sabin Design Lab",
+          "sourceUrl": "http://www.sabinlab.com/polybrick-1",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "journal article",
+          "citation": "Sabin, J., Miller, M. et al. (2014). \"PolyBrick: Variegated Additive Ceramic Component Manufacturing\" – 3D Printing and Additive Manufacturing 1(2): 78-89.",
+          "url": ""
+        },
+        {
+          "type": "web",
+          "citation": "6sqft. (2015). \"Sabin Design Lab's 3D-Printed, Ceramic PolyBricks Eliminate the Need for Mortar\".",
+          "url": "https://www.6sqft.com/sabin-design-labs-3d-printed-ceramic-polybricks-eliminate-the-need-for-mortar/"
+        }
+      ]
+    },
+    {
+      "id": "proj19",
+      "title": "TERMES Robots",
+      "year": 2014,
+      "authors": [
+        "Radhika Nagpal",
+        "Justin Werfel",
+        "Kirstin Petersen"
+      ],
+      "institutionOrPractice": "Harvard University (Wyss Institute)",
+      "location": "Cambridge, MA, USA",
+      "projectType": "robotic construction system",
+      "tags": [
+        "swarm robotics",
+        "autonomous blocks",
+        "bio-inspired"
+      ],
+      "summary": "TERMES is a robotic construction platform inspired by termite colonies, featuring small autonomous robots that cooperatively build structures from foam bricks. In a 2014 Science paper, the team demonstrated a fleet of wheeled robots that could pick up cubic blocks, climb on the partially built structure via ramps made of those same blocks, and stack them according to a prescribed blueprint – all without central control. The robots followed simple local rules to add blocks one by one, successfully erecting structures like a small castle and pyramid in the lab. This system proved that collective robotic assembly of discrete units is feasible even with limited sensing and no shared map:contentReference[oaicite:72]{index=72}:contentReference[oaicite:73]{index=73}.",
+      "analyticalCaption": "The TERMES project translates stigmergic construction – where agents cue on the evolving structure – into the realm of autonomous building. It validates that complex 3D structures can emerge from decentralized placement of discrete blocks by multiple robots following identical rules:contentReference[oaicite:74]{index=74}:contentReference[oaicite:75]{index=75}. In architectural terms, TERMES suggests a future construction paradigm where swarms of simple robots assemble modular materials in parallel, scalable to sites too hazardous or remote for humans. Its success with strictly additive assembly (no modification or reconfiguration of placed units) underscores the robustness of a pure discrete building methodology guided by emergent behavior.",
+      "methods": {
+        "computational": [
+          "behavior-based swarm algorithm",
+          "onboard rule processing"
+        ],
+        "assemblyFabrication": [
+          "autonomous mobile robots",
+          "foam bricks with alignment features"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://wyss.harvard.edu/wp-content/uploads/2014/02/Termes_robot.jpg",
+          "alt": "TERMES robot carrying a white foam brick up a stack, as another robot works on the other side.",
+          "role": "overall",
+          "sourceName": "Wyss Institute, Harvard",
+          "sourceUrl": "https://wyss.harvard.edu/media-post/robotic-construction-crew-needs-no-foreman/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://wyss.harvard.edu/wp-content/uploads/2014/02/Termes_structure.jpg",
+          "alt": "Lab-built structure (tower and stairs) assembled by TERMES robots out of uniform blocks without any scaffolding.",
+          "role": "detail",
+          "sourceName": "Wyss Institute, Harvard",
+          "sourceUrl": "https://wyss.harvard.edu/media-post/robotic-construction-crew-needs-no-foreman/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://wyss.harvard.edu/wp-content/uploads/2014/02/Termes_simulation.jpg",
+          "alt": "Simulation diagram showing multiple TERMES robots and their paths adding blocks to a target structure pattern.",
+          "role": "diagram",
+          "sourceName": "Wyss Institute, Harvard",
+          "sourceUrl": "https://wyss.harvard.edu/news/robotic-construction-crew-needs-no-foreman/",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "journal article",
+          "citation": "Werfel, J., Petersen, K., Nagpal, R. (2014). \"Designing Collective Behavior in a Termite-Inspired Robot Construction Team.\" Science 343(6172): 754-758.",
+          "url": ""
+        },
+        {
+          "type": "web",
+          "citation": "Harvard SEAS. (2014). \"Robotic construction crew needs no foreman\" – press release.",
+          "url": "https://wyss.harvard.edu/news/robotic-construction-crew-needs-no-foreman/"
+        }
+      ]
+    },
+    {
+      "id": "proj06",
+      "title": "WikiHouse 4.0 Prototype",
+      "year": 2014,
+      "authors": [
+        "Alastair Parvin",
+        "WikiHouse Foundation"
+      ],
+      "institutionOrPractice": "Project00 / WikiHouse",
+      "location": "London, UK",
+      "projectType": "open-source house prototype",
+      "tags": [
+        "CNC fabrication",
+        "kit-of-parts housing",
+        "open-source design"
+      ],
+      "summary": "The first two-story open-source WikiHouse, assembled live at the 2014 London Design Festival. WikiHouse 4.0 consists of interlocking plywood components that were CNC-cut and fit together with wedge keys, requiring no nails or glue. The prototype demonstrated how a small team with minimal training could construct a weatherproof, habitable structure in a few days using only digitally-fabricated parts that snap together. As an open hardware project, its design files were shared for anyone to download and customize:contentReference[oaicite:22]{index=22}:contentReference[oaicite:23]{index=23}.",
+      "analyticalCaption": "WikiHouse 4.0 showcased democratized construction via digital fabrication and discrete assembly. Its structural system is entirely made of repeating plywood ribs and panels that slot together, epitomizing a kit-of-parts architecture that is reversible and accessible:contentReference[oaicite:24]{index=24}:contentReference[oaicite:25]{index=25}. This project proved the feasibility of low-cost, locally manufacturable housing modules, aligning combinatorial design with community empowerment in the construction process.",
+      "methods": {
+        "computational": [
+          "parametric CAD templates",
+          "open-source design library"
+        ],
+        "assemblyFabrication": [
+          "CNC milling of panels",
+          "manual slot-fit assembly"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/WikiHouse_4.0_London.jpg",
+          "alt": "Two-story WikiHouse 4.0 prototype assembled from plywood parts in London.",
+          "role": "overall",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:WikiHouse_4.0_London.jpg",
+          "licenseHint": "CC BY-SA"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/WikiHouse_construction_detail.jpg",
+          "alt": "Close-up of plywood joints and wedges used in WikiHouse assembly, showing how pieces interlock.",
+          "role": "detail",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:WikiHouse_Joints.jpg",
+          "licenseHint": "CC BY"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/WikiHouse_module_diagram.png",
+          "alt": "Diagram of WikiHouse system showing modular components and how they slot together.",
+          "role": "diagram",
+          "sourceName": "WikiHouse CC",
+          "sourceUrl": "https://wikihouse.cc/",
+          "licenseHint": "CC BY-SA"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "The Guardian. (2014). \"WikiHouse 4.0: A house you can download and build yourself.\"",
+          "url": "https://www.theguardian.com/artanddesign/2014/sep/16/wikihouse-download-build-yourself-london-design-festival"
+        },
+        {
+          "type": "web",
+          "citation": "WikiHouse Blog. (2014). WikiHouse 4.0 launch at LDF.",
+          "url": "https://medium.com/wikihouse"
+        }
+      ]
+    },
+    {
+      "id": "proj26",
+      "title": "Better Shelter",
+      "year": 2013,
+      "authors": [
+        "IKEA Foundation",
+        "UNHCR"
+      ],
+      "institutionOrPractice": "Better Shelter (social enterprise)",
+      "location": "Global (refugee camps in Middle East, Africa, Europe)",
+      "projectType": "modular emergency shelter",
+      "tags": [
+        "kit-of-parts shelter",
+        "flat-pack",
+        "humanitarian design"
+      ],
+      "summary": "Better Shelter is a flat-pack, kit-of-parts emergency housing unit designed to be rapidly deployed and assembled by refugees themselves. Developed by the IKEA Foundation and UNHCR, each 17.5 m² shelter comes in two flat boxes containing a lightweight steel frame, modular polymer wall panels, roof sheets, a solar panel for light, and all necessary tools. No piece exceeds the size manageable by two people. Assembly takes 4–8 hours with basic instructions. Unlike tents, these shelters are rigid, lockable, and last for years, yet they can be disassembled and moved as needed. Over 60,000 units have been distributed worldwide, demonstrating the impact of modular design on humanitarian response:contentReference[oaicite:97]{index=97}:contentReference[oaicite:98]{index=98}.",
+      "analyticalCaption": "Better Shelter exemplifies a successful real-world application of discrete architecture principles for urgent needs. Its design breaks down a dwelling into standardized parts that maximize logistical efficiency (flat-pack shipping) and participatory construction (no skilled labor required):contentReference[oaicite:99]{index=99}. Each component is optimized for weight, strength, and compatibility, reflecting a systemic approach where the kit can be flexibly used or adapted in the field. The project underscores how kit-of-parts systems can achieve both scale and dignity: refugees gain a measure of agency in constructing their own shelters, and the shelters themselves provide safety and comfort far beyond that of ad-hoc tents, all enabled by the thoughtful orchestration of discrete building elements.",
+      "methods": {
+        "computational": [
+          "human-factor optimization",
+          "structural modular design"
+        ],
+        "assemblyFabrication": [
+          "mass-manufactured GI steel and polyolefin parts",
+          "manual assembly with included tools"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Better_Shelter_unit.jpg",
+          "alt": "A Better Shelter unit assembled in a refugee camp, showing its panel walls, gabled roof, and solar panel on top.",
+          "role": "overall",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Better_Shelter_refugee_housing.jpg",
+          "licenseHint": "CC BY-SA"
+        },
+        {
+          "url": "https://www.bettershelter.org/wp-content/uploads/2020/05/BetterShelter_flatpack.jpg",
+          "alt": "The flat-pack contents of a Better Shelter: frame members, panels, bolts, tools, packaged for shipment.",
+          "role": "detail",
+          "sourceName": "Better Shelter",
+          "sourceUrl": "https://www.bettershelter.org/product/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://www.bettershelter.org/wp-content/uploads/2020/05/BetterShelter_manual.png",
+          "alt": "Illustration from the Better Shelter assembly manual, depicting how modular components fit and bolt together.",
+          "role": "diagram",
+          "sourceName": "Better Shelter",
+          "sourceUrl": "https://www.bettershelter.org/product/",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "IKEA Today. (2016). \"Better Shelter: Flat-pack refugee housing wins design award\".",
+          "url": ""
+        },
+        {
+          "type": "web",
+          "citation": "UNHCR. (2018). \"Better Shelter – Project Milestones and Impact\".",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "proj20",
+      "title": "M-Blocks (Self-Assembling Cubes)",
+      "year": 2013,
+      "authors": [
+        "John Romanishin",
+        "Kyle Gilpin",
+        "Daniela Rus"
+      ],
+      "institutionOrPractice": "MIT CSAIL",
+      "location": "Cambridge, MA, USA",
+      "projectType": "modular robotics system",
+      "tags": [
+        "self-reconfiguring robots",
+        "magnetic attachment",
+        "swarm modules"
+      ],
+      "summary": "M-Blocks are a set of modular robotic cubes that can move and connect with each other to form structures. First unveiled in 2013 and updated in 2019 (M-Blocks 2.0), each cube contains an internal flywheel that imparts angular momentum, allowing the cube to \"jump\" or spin into adjacent positions. The cubes have magnets on their faces so they stick together upon contact. Without any external moving parts, M-Blocks can autonomously roll over one another, climb stacks, and even identify neighboring modules using barcode-like labels on each face. This research platform has demonstrated basic self-assembly tasks, hinting at future applications where swarms of such cubes could form adaptive furniture or temporary structures on demand:contentReference[oaicite:76]{index=76}:contentReference[oaicite:77]{index=77}.",
+      "analyticalCaption": "The M-Blocks system represents a leap toward programmable matter, where discrete building blocks dynamically rearrange to meet changing needs:contentReference[oaicite:78]{index=78}:contentReference[oaicite:79]{index=79}. By miniaturizing actuation and adhesion within each module, it eliminates external scaffolding or robotic agents to perform assembly. For architecture, albeit at a proof-of-concept scale, it suggests the tantalizing possibility of buildings that could self-organize or morph by rearranging standardized components. M-Blocks underscore that the distinction between structure and robot can blur: here the structural units themselves possess agency, expanding the notion of combinatorial assemblies into the time domain (reconfiguration post-assembly).",
+      "methods": {
+        "computational": [
+          "distributed reconfiguration algorithms",
+          "face identification via IR communication"
+        ],
+        "assemblyFabrication": [
+          "inertial actuator (flywheel)",
+          "permanent magnets for bonding",
+          "self-locomotion of modules"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/2019/M-Blocks2_0.jpg",
+          "alt": "A cluster of black M-Block robotic cubes attaching to each other in various configurations on a tabletop.",
+          "role": "overall",
+          "sourceName": "MIT News",
+          "sourceUrl": "https://news.mit.edu/2019/self-transforming-robot-blocks-jump-spin-flip-identify-each-other-1030",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://csail.mit.edu/sites/default/files/images/2019-10/Mblocks_closeup.jpg",
+          "alt": "Close-up of an M-Block cube's interior, showing the flywheel mechanism and magnets on its faces.",
+          "role": "detail",
+          "sourceName": "MIT CSAIL",
+          "sourceUrl": "https://csail.mit.edu/news/mit%E2%80%99s-self-assembling-robot-blocks",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://www.youtube.com/embed/uEsxVin7LDA",
+          "alt": "Video thumbnail: Diagrammatic animation of how M-Blocks move by spinning their internal flywheels and attach via face magnets.",
+          "role": "diagram",
+          "sourceName": "MIT CSAIL (YouTube)",
+          "sourceUrl": "https://youtu.be/uEsxVin7LDA",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "conference paper",
+          "citation": "Romanishin, J., Gilpin, K., Rus, D. (2015). \"M-Blocks: Momentum-Driven, Magnetic Modular Robots\" – IROS 2015.",
+          "url": ""
+        },
+        {
+          "type": "web",
+          "citation": "MIT News. (2019). \"Self-transforming robot blocks jump, spin, flip, and identify each other\".",
+          "url": "https://news.mit.edu/2019/self-transforming-robot-blocks-jump-spin-flip-identify-each-other-1030"
+        }
+      ]
+    },
+    {
+      "id": "proj28",
+      "title": "Makoko Floating School",
+      "year": 2013,
+      "authors": [
+        "Kunlé Adeyemi (NLÉ)"
+      ],
+      "institutionOrPractice": "NLÉ Works",
+      "location": "Lagos, Nigeria",
+      "projectType": "prototype school (floating)",
+      "tags": [
+        "modular frame",
+        "community-built",
+        "buoyant architecture"
+      ],
+      "summary": "A triangular A-frame structure built on a floating platform of 256 plastic barrels, designed as a prototype for sustainable water-top architecture in the Makoko waterfront community. The school was built by local residents using a kit-of-parts method: a wooden frame of standard dimension lumber connected by metal plates, and modular grid layouts that created three levels (an open play area, an enclosed classroom, and another open-air classroom). The modularity lay in the repetitive triangular truss sections and floors, which could be prefabricated and then bolted together on-site. Completed in 2013, it became a celebrated example of low-tech discrete design addressing slum conditions, though it was a temporary structure (it partially collapsed after heavy winds in 2016). Still, its influence persists in subsequent floating architecture projects and as a demonstration of rapid, vernacular-friendly modular building:contentReference[oaicite:104]{index=104}:contentReference[oaicite:105]{index=105}.",
+      "analyticalCaption": "Makoko Floating School illustrates how kit-of-parts architecture can be tailored to local contexts and pressing needs. By using simple, repeatable building frames and readily available materials, it allowed unskilled community members to participate in assembly, similar to a barn-raising, but with clearly defined modular components. Its buoyant foundation of modular barrels and its adaptable wooden superstructure addressed the challenges of a flood-prone environment through discrete means. Although the prototype had structural limitations, its core idea – that architecture for informally built environments can be modular, participatory, and responsive – set a precedent for human-centric discrete design, influencing both humanitarian design discourse and evolving versions of the floating school concept in other communities:contentReference[oaicite:106]{index=106}:contentReference[oaicite:107]{index=107}.",
+      "methods": {
+        "computational": [
+          "manual modular design (pattern-based)"
+        ],
+        "assemblyFabrication": [
+          "timber framing with repetitive trusses",
+          "floating barrel foundation",
+          "community self-build"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://architectmagazine.com/files/cache/af/1e/af1e2858dcc6e3dadae2d43bff2bf455.jpg",
+          "alt": "Makoko Floating School on water: a triangular three-tier wooden structure on blue barrels, with children canoeing nearby.",
+          "role": "overall",
+          "sourceName": "Architect Magazine",
+          "sourceUrl": "https://www.architectmagazine.com/design/buildings/makoko-floating-school-nle_o",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://architectmagazine.com/files/cache/2c/91/2c910eda1dfd9d0b842e822e2a5b9994.jpg",
+          "alt": "Close-up of the floating school's base, showing plastic barrel modules supporting a timber grid platform.",
+          "role": "detail",
+          "sourceName": "Architect Magazine",
+          "sourceUrl": "https://www.architectmagazine.com/design/buildings/makoko-floating-school-nle_o",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://architizer-prod.imgix.net/mediadata/projects/cb1b5d62.jpg",
+          "alt": "Axonometric drawing of Makoko Floating School, labeling the structural components: triangular frames, cross-bracing, barrel pontoons.",
+          "role": "diagram",
+          "sourceName": "Architizer",
+          "sourceUrl": "https://architizer.com/projects/makoko-floating-school-1/",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "NLÉ. (2013). \"Makoko Floating School\" – project description and data.",
+          "url": "http://nleworks.com/case/makoko-floating-school/"
+        },
+        {
+          "type": "web",
+          "citation": "Architect Magazine. (2014). \"Makoko Floating School / NLÉ\" – feature article.",
+          "url": "https://www.architectmagazine.com/design/buildings/makoko-floating-school-nle_o"
+        }
+      ]
+    },
+    {
+      "id": "proj23",
+      "title": "Block by Block (Minecraft Urban Design)",
+      "year": 2012,
+      "authors": [
+        "UN-Habitat",
+        "Mojang Studios"
+      ],
+      "institutionOrPractice": "UN-Habitat & Minecraft",
+      "location": "Global (e.g., Nairobi, Kathmandu, Mexico City)",
+      "projectType": "community co-design platform",
+      "tags": [
+        "game-engine participation",
+        "Minecraft",
+        "public space design"
+      ],
+      "summary": "Block by Block is an initiative that uses the video game Minecraft as a digital kit-of-parts for community-driven urban design. Launched in 2012 by UN-Habitat in partnership with Minecraft’s creators, it empowers residents (often youth) to collaboratively build models of proposed public spaces using Minecraft’s 1m³ blocks. These virtual designs — assembled from the game’s library of discrete voxel elements like colored bricks, slabs, and plants — are then presented to architects and city officials as the basis for real-world construction. Over 100 projects in 30+ countries have been implemented, from reimagined parks in Kosovo to waterfronts in Peru, all starting with combinatorial block designs crafted in a game:contentReference[oaicite:87]{index=87}:contentReference[oaicite:88]{index=88}.",
+      "analyticalCaption": "By leveraging a game-engine environment of digital blocks, Block by Block bridges the gap between grassroots imagination and professional planning. The core premise is that anyone can become a \"builder\" in Minecraft, arranging modular blocks into proposals rapidly and without technical barriers. The success of this approach underscores the power of discrete thinking for participatory design: complex urban visions emerge from simple, universally understood units (the Minecraft block). Moreover, it reveals an unexpected synergy between virtual combinatorial play and physical architecture — the voxel models serve as a common language that can be translated into bricks, pavers, and plants on site, legitimizing community contributions in formal design processes.",
+      "methods": {
+        "computational": [
+          "Minecraft sandbox modeling",
+          "crowd collaboration online"
+        ],
+        "assemblyFabrication": [
+          "manual construction guided by game output",
+          "small-scale local materials"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://blockbyblock.org/media/Minecraft_workshop.jpg",
+          "alt": "Community workshop participants in Nairobi using Minecraft to design a public space with virtual blocks.",
+          "role": "overall",
+          "sourceName": "Block by Block Foundation",
+          "sourceUrl": "https://blockbyblock.org",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://blockbyblock.org/media/Minecraft_vs_Reality.jpg",
+          "alt": "Side-by-side comparison of a Minecraft block model of a park and the actual built park derived from it.",
+          "role": "detail",
+          "sourceName": "Block by Block Foundation",
+          "sourceUrl": "https://blockbyblock.org",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://blockbyblock.org/media/Minecraft_blocks_diagram.png",
+          "alt": "Screenshot of a Minecraft design showing block elements like benches, lights, and landscaping in voxel form for a town square concept.",
+          "role": "diagram",
+          "sourceName": "Block by Block Foundation",
+          "sourceUrl": "https://blockbyblock.org",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "UN-Habitat. (2017). \"Block by Block: Using Minecraft as a Participatory Design Tool in Urban Projects.\"",
+          "url": "https://unhabitat.org/block-by-block"
+        },
+        {
+          "type": "article",
+          "citation": "Fournier, C. (2018). \"Reimagining Public Spaces with Minecraft\" – Smithsonian Magazine.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "proj07",
+      "title": "Bloom (Olympic Park Installation)",
+      "year": 2012,
+      "authors": [
+        "Alisa Andrasek",
+        "Jose Sanchez"
+      ],
+      "institutionOrPractice": "University of Westminster (AADRL) / The Very Many",
+      "location": "London, UK",
+      "projectType": "public interactive installation",
+      "tags": [
+        "participatory assembly",
+        "modular toy-like pieces",
+        "urban game"
+      ],
+      "summary": "Bloom is a crowd-sourced temporary pavilion composed of 60,000 identical injection-molded plastic cells that snap together. Installed during the 2012 London Olympics, the project invited the public to continuously reconfigure the bright pink pieces into furniture, walls, or playful organic formations. Each Bloom unit has a petal-like geometry enabling interlocking with others. Participants could attach pieces without tools, creating an ever-changing combinatorial structure that embodied an \"urban toy\" for collective creativity:contentReference[oaicite:26]{index=26}:contentReference[oaicite:27]{index=27}.",
+      "analyticalCaption": "As an experiment in combinatorial urban play, Bloom demonstrated how simple, mass-produced units can facilitate complex and adaptive architectures through human participation. The project’s identical modules encouraged spontaneity and iteration: its form was not fixed by designers but evolved through the discrete additions by users. This participatory model underscored the social dimension of discrete architecture, where combinatorial assemblies become platforms for engagement and co-creation:contentReference[oaicite:28]{index=28}:contentReference[oaicite:29]{index=29}.",
+      "methods": {
+        "computational": [
+          "tiling geometry design",
+          "form-finding via gaming"
+        ],
+        "assemblyFabrication": [
+          "injection-molded ABS units",
+          "hand assembly by public"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://designboom.com/wp-content/uploads/2012/08/bloom_olympic_by_alis_andrasek_jose_sanchez_1.jpg",
+          "alt": "Public participants adding pink Bloom pieces to the growing pavilion structure in 2012.",
+          "role": "overall",
+          "sourceName": "Designboom",
+          "sourceUrl": "https://www.designboom.com/architecture/alisa-andrasek-jose-sanchez-bloom-pavilion/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://designboom.com/wp-content/uploads/2012/08/bloom_olympic_closeup.jpg",
+          "alt": "Close-up of Bloom modules showing the interlocking petal geometry and snap-fit connections.",
+          "role": "detail",
+          "sourceName": "Designboom",
+          "sourceUrl": "https://www.designboom.com/architecture/alisa-andrasek-jose-sanchez-bloom-pavilion/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://designboom.com/wp-content/uploads/2012/08/bloom_diagram.jpg",
+          "alt": "Diagram illustrating the Bloom cell design and how modules connect to form larger structures.",
+          "role": "diagram",
+          "sourceName": "Designboom",
+          "sourceUrl": "https://www.designboom.com/architecture/alisa-andrasek-jose-sanchez-bloom-pavilion/",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "magazine",
+          "citation": "AD Architectural Design. (2013). \"Bloom: The Game as Architecture\" – profile of the project by Andrasek & Sanchez.",
+          "url": ""
+        },
+        {
+          "type": "web",
+          "citation": "Designboom. (2012). \"bloom interactive pavilion by alisa andrasek + jose sanchez\".",
+          "url": "https://www.designboom.com/architecture/alisa-andrasek-jose-sanchez-bloom-pavilion/"
+        }
+      ]
+    },
+    {
       "id": "flight-assembled-architecture-2011",
       "title": "Flight Assembled Architecture",
       "year": 2011,
@@ -411,6 +2493,202 @@
           "type": "web",
           "citation": "ETH Zürich Flying Machine Arena. “Flight Assembled Architecture (FRAC Centre project page).”",
           "url": "https://www.flyingmachinearena.ethz.ch/project/frac-centre/"
+        }
+      ]
+    },
+    {
+      "id": "proj01",
+      "title": "Flight Assembled Architecture",
+      "year": 2011,
+      "authors": [
+        "Fabio Gramazio",
+        "Matthias Kohler",
+        "Raffaello D'Andrea"
+      ],
+      "institutionOrPractice": "Gramazio Kohler Research, ETH Zurich & EPFL",
+      "location": "Orléans, France",
+      "projectType": "installation",
+      "tags": [
+        "robotic construction",
+        "drones",
+        "modular blocks"
+      ],
+      "summary": "A 6-meter-tall tower constructed from 1500 lightweight foam modules, assembled autonomously by four quadrotor drones during an exhibition. The project demonstrated a novel approach to construction in which flying robots collaboratively built an architectural structure by sequentially lifting and positioning discrete building blocks:contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}.",
+      "analyticalCaption": "Flight Assembled Architecture pioneered aerial robotic assembly in architecture. Its stackable foam units and autonomous drone builders illustrated the potential of discrete, additive construction systems that can scale to architectural dimensions:contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3}. This project provided a proof-of-concept for combinatorial design freed from ground-based construction constraints.",
+      "methods": {
+        "computational": [
+          "algorithmic path planning",
+          "swarm coordination"
+        ],
+        "assemblyFabrication": [
+          "autonomous drone assembly",
+          "prefabricated foam blocks"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flight-Assembled-Architecture_Drone.jpg",
+          "alt": "Quadcopter drone placing a foam block during Flight Assembled Architecture.",
+          "role": "overall",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/Flight_Assembled_Architecture",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flight-Assembled-Architecture_Tower.jpg",
+          "alt": "Completed 6m foam block tower built by flying robots at FRAC Centre.",
+          "role": "detail",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/Flight_Assembled_Architecture",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flight-Assembled-Architecture_Diagram.png",
+          "alt": "Diagram of drone assembly process for Flight Assembled Architecture installation.",
+          "role": "diagram",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/Flight_Assembled_Architecture",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "article",
+          "citation": "Gramazio, F.; Kohler, M.; D'Andrea, R. (2011). “Flight Assembled Architecture” – FRAC Centre installation description.",
+          "url": "https://www.architectmagazine.com/technology/the-next-phase-of-flight-assembled-architecture_o"
+        }
+      ]
+    },
+    {
+      "id": "proj35",
+      "title": "ICD/ITKE Research Pavilion 2011",
+      "year": 2011,
+      "authors": [
+        "Institute for Computational Design (ICD)",
+        "Institute of Building Structures (ITKE)"
+      ],
+      "institutionOrPractice": "University of Stuttgart",
+      "location": "Stuttgart, Germany",
+      "projectType": "experimental pavilion",
+      "tags": [
+        "segmental wood shell",
+        "puzzle joints",
+        "bio-inspired design"
+      ],
+      "summary": "A temporary pavilion constructed from 500 segmented timber plates that were custom cut to interlock like a giant 3D puzzle. Inspired by the exoskeleton of sand dollars, the pavilion formed a convex shell approximately 10 meters across. Each plate was unique, CNC-milled from birch plywood with tongue-and-groove edges so that when assembled with adjacent plates, they achieved a double-curved surface without additional framing. The assembly was done by students who pieced the segments together in situ, aided by formwork and cable ties which were later removed. The resulting structure was self-supporting, demonstrating how non-identical, discrete elements can assemble into a continuous, doubly curved architecture through high-precision fabrication and design computation:contentReference[oaicite:132]{index=132}:contentReference[oaicite:133]{index=133}.",
+      "analyticalCaption": "The ICD/ITKE 2011 Pavilion was a landmark in showing that complex free-form geometries can be constructed from purely discrete parts. It translated a biological reference (the segmented plates of a sand dollar) into an architectural strategy: many thin plates, each optimized in shape, collectively bearing loads through geometric locking:contentReference[oaicite:134]{index=134}. Crucially, the pavilion used no glue or nails at the plate joints — it relied on carefully designed friction-fit connections and the overall shell action for stability. This project prefigured later developments in segmented shells and digital timber; it validated that with computational design for shape and robotic fabrication for accuracy, even highly irregular forms can be realized via the discrete assembly paradigm.",
+      "methods": {
+        "computational": [
+          "biomimetic form generation",
+          "plate segmentation algorithm"
+        ],
+        "assemblyFabrication": [
+          "CNC milling of plywood plates",
+          "manual interlocking assembly with temporary ties"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://achimmenges.net/wp-content/uploads/2011/12/ICD-ITKE-Pavilion2011_overall.jpg",
+          "alt": "ICD/ITKE Research Pavilion 2011: a wooden shell structure composed of many interlocking polygonal plates.",
+          "role": "overall",
+          "sourceName": "Achim Menges",
+          "sourceUrl": "https://achimmenges.net/?p=5879",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://achimmenges.net/wp-content/uploads/2011/12/ICD-ITKE-Pavilion2011_interior.jpg",
+          "alt": "Interior view of the 2011 pavilion, showing the network of interlocking plate seams with no additional support beneath.",
+          "role": "detail",
+          "sourceName": "Achim Menges",
+          "sourceUrl": "https://achimmenges.net/?p=5879",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://achimmenges.net/wp-content/uploads/2011/12/ICD-ITKE-Pavilion2011_model.jpg",
+          "alt": "Assembly model of pavilion segments: a cluster of curved plywood pieces that fit together like a puzzle, with labeling for assembly sequence.",
+          "role": "diagram",
+          "sourceName": "Achim Menges",
+          "sourceUrl": "https://achimmenges.net/?p=5879",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "academic paper",
+          "citation": "Dörstelmann, M., et al. (2013). \"Design, simulation and implementation of segmented wood shell structures\" – Journal of the International Association for Shell and Spatial Structures, 54(4).",
+          "url": ""
+        },
+        {
+          "type": "web",
+          "citation": "ArchDaily. (2012). \"ICD | ITKE Research Pavilion 2011\" – project description.",
+          "url": "https://www.archdaily.com/209490/icd-itke-research-pavilion-2011-icd-itke-university-of-stuttgart"
+        }
+      ]
+    },
+    {
+      "id": "proj32",
+      "title": "OpenStructures",
+      "year": 2011,
+      "authors": [
+        "Thomas Lommée"
+      ],
+      "institutionOrPractice": "OpenStructures (design collaboration platform)",
+      "location": "Brussels, Belgium",
+      "projectType": "open-source modular system",
+      "tags": [
+        "design platform",
+        "grid system",
+        "interchangeable parts"
+      ],
+      "summary": "OpenStructures (OS) is an ongoing collaborative project proposing a universal construction grid so that parts designed by anyone can fit with parts designed by others. It is based on a single geometric framework: a grid where 4cm x 4cm squares form the basic unit (with a 1cm division), allowing creation of components that consistently align and connect. Since 2011, designers around the world have contributed OS-compatible designs – from furniture and lighting to small architectural installations. For example, an OS pavilion displayed in 2012 used standardized connectors and panels, each contributed by different designers, assembled into a cohesive structure. The concept is akin to a grown-up LEGO or Meccano set, but open-source: all designs are published so that a global library of modular components can emerge, enabling circular reuse and mix-and-match assembly across projects:contentReference[oaicite:118]{index=118}.",
+      "analyticalCaption": "OpenStructures shifts the focus from individual projects to the ecosystem of parts underlying them. It asks: what if all our objects and buildings shared a common interface? This meta-project argues that by agreeing on a discrete grid and connection standards, design becomes a collaborative, evolutionary process, much like open-source software. In an architectural context, OS suggests that buildings could be composed of interoperable modules sourced from a marketplace of creators, breaking down silos between manufacturers. Although still largely conceptual and at small scales, OpenStructures is an important cultural project that pushes discrete architecture beyond proprietary systems towards an open, participatory model where everyone designs pieces of a larger puzzle and those pieces can be recombined infinitely in new creations:contentReference[oaicite:120]{index=120}.",
+      "methods": {
+        "computational": [
+          "open-source part database",
+          "user-driven design"
+        ],
+        "assemblyFabrication": [
+          "common grid interfaces",
+          "varied fabrication (CNC, 3D print, etc.)"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://openstructures.net/images/OS_grid.svg",
+          "alt": "Diagram of the OpenStructures grid: a pattern of 4x4 cm squares subdivided, illustrating the modular base for part design.",
+          "role": "diagram",
+          "sourceName": "OpenStructures",
+          "sourceUrl": "https://openstructures.net/pages/12",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://openstructures.net/images/OS_pavilion.jpg",
+          "alt": "An experimental pavilion built with OpenStructures components: various panels and connectors in a grid-based frame.",
+          "role": "overall",
+          "sourceName": "OpenStructures",
+          "sourceUrl": "https://openstructures.net/projects/os-pavilion",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://openstructures.net/images/OS_parts.jpg",
+          "alt": "Collection of OpenStructures parts contributed by different designers: colorful panels, connectors, and mechanisms all following the OS grid standard.",
+          "role": "detail",
+          "sourceName": "OpenStructures",
+          "sourceUrl": "https://openstructures.net",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "book chapter",
+          "citation": "Lommée, T. (2012). \"OpenStructures: Towards a open-source modular system\" – in Product Design: Challenging the Future.",
+          "url": ""
+        },
+        {
+          "type": "web",
+          "citation": "OpenStructures. (2021). OpenStructures Platform – project overview and library.",
+          "url": "https://openstructures.net"
         }
       ]
     },
@@ -481,6 +2759,72 @@
       ]
     },
     {
+      "id": "proj13",
+      "title": "GC Prostho Museum (Chidori Architecture)",
+      "year": 2010,
+      "authors": [
+        "Kengo Kuma"
+      ],
+      "institutionOrPractice": "Kengo Kuma & Associates",
+      "location": "Kasugai, Japan",
+      "projectType": "small museum",
+      "tags": [
+        "interlocking wood lattice",
+        "traditional joinery",
+        "modular ceiling"
+      ],
+      "summary": "A museum whose interior is defined by an extensive interlocking wood lattice inspired by a traditional Japanese toy called 'Chidori'. Completed in 2010, the GC Prostho Museum features thousands of small wooden sticks with unique notched joints that connect without nails or glue. These units form a self-supporting 3D grid that flows seamlessly from ceiling to walls, demonstrating how a simple modular element can generate a complex spatial experience. The assembly was achieved by carefully twisting and slotting each timber element in place, resulting in a reversible, puzzle-like construction:contentReference[oaicite:53]{index=53}:contentReference[oaicite:54]{index=54}.",
+      "analyticalCaption": "Kuma’s design for the Prostho Museum reinvents vernacular joinery as a discrete architectural system. The chidori lattice comprises repetitive timber components that achieve rigidity through geometric locking alone:contentReference[oaicite:55]{index=55}:contentReference[oaicite:56]{index=56}. This project exemplifies a fusion of craft and digital design: while rooted in a pre-digital module, it was realized through precise computation of each joint. The outcome is a richly textured environment that illustrates how non-metallic, interlocking kits-of-parts can scale to architectural structures and be assembled or dismantled in situ.",
+      "methods": {
+        "computational": [
+          "3D lattice pattern generation",
+          "structural analysis of interlock"
+        ],
+        "assemblyFabrication": [
+          "CNC-cut cedar sticks",
+          "hand assembly via twist-lock joints"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://detail-online.com/media/catalog/product/cache/0/image/800x600/0dc2d03fe217f8c83829496872af24a0/g/c/gc_prostho.jpg",
+          "alt": "Interior view of GC Prostho Museum's interlocking wooden lattice ceiling.",
+          "role": "overall",
+          "sourceName": "Detail Magazine",
+          "sourceUrl": "https://www.detail.de/en/de_en/gc-prostho-museum-research-center-kengo-kuma-associates",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://architecturaviva.com/assets/uploads/obras/40005/av_med_40005.jpg",
+          "alt": "Close-up of Chidori joint: wooden sticks with unique cuts interpenetrating at right angles.",
+          "role": "detail",
+          "sourceName": "Arquitectura Viva",
+          "sourceUrl": "https://arquitecturaviva.com/works/gc-prostho-museum-research-center-kasugai",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://stirworld.com/images/Chidori_joint_diagram.jpg",
+          "alt": "Diagram of Chidori joint module showing the shape of the wooden element and how rotation locks it with others.",
+          "role": "diagram",
+          "sourceName": "Stir World",
+          "sourceUrl": "https://www.stirworld.com/see-news-tradition-and-technique-chidori-furniture-by-kengo-kuma",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "magazine",
+          "citation": "Detail Magazine. (2012). “GC Prostho Museum by Kengo Kuma” – project analysis.",
+          "url": ""
+        },
+        {
+          "type": "web",
+          "citation": "Stir World. (2020). “Tradition and Technique – Chidori furniture by Kengo Kuma” (on Chidori system).",
+          "url": "https://www.stirworld.com/see-news-tradition-and-technique-chidori-furniture-by-kengo-kuma"
+        }
+      ]
+    },
+    {
       "id": "gc-prostho-museum-research-center-2010",
       "title": "GC Prostho Museum Research Center",
       "year": 2010,
@@ -543,6 +2887,137 @@
           "type": "web",
           "citation": "ArchDaily. “GC Prostho Museum Research Center / Kengo Kuma & Associates.” Published 16 Jan 2012.",
           "url": "https://www.archdaily.com/199442/gc-prostho-museum-research-center-kengo-kuma-associates"
+        }
+      ]
+    },
+    {
+      "id": "proj14",
+      "title": "Nakagin Capsule Tower",
+      "year": 1972,
+      "authors": [
+        "Kisho Kurokawa"
+      ],
+      "institutionOrPractice": "Kisho Kurokawa Architect & Associates",
+      "location": "Tokyo, Japan",
+      "projectType": "apartment tower",
+      "tags": [
+        "Metabolism",
+        "prefabricated capsules",
+        "plug-in architecture"
+      ],
+      "summary": "An iconic 13-story tower composed of 140 removable prefabricated micro-apartments (capsules) attached to two concrete cores. Each capsule (measuring 2.5m x 4m) was a fully outfitted living unit manufactured off-site and fastened to the core with only four high-tension bolts, theoretically allowing replacement or reconfiguration over time. The Nakagin Capsule Tower embodied the Metabolist vision of growable architecture, although in practice the capsules were never swapped out before the building’s demolition in 2022:contentReference[oaicite:57]{index=57}:contentReference[oaicite:58]{index=58}.",
+      "analyticalCaption": "Nakagin Capsule Tower pioneered discrete combinatorial architecture at an urban housing scale. It treated dwelling units as interchangeable parts — a radical departure from static construction:contentReference[oaicite:59]{index=59}. This design decoupled individual habitations from the structural core, foreshadowing later kit-of-parts strategies. While its plug-in scheme remained largely aspirational due to maintenance challenges, Nakagin’s striking realization of modularity and temporality has influenced generations of architects exploring flexibility and mass-customization in architecture.",
+      "methods": {
+        "computational": [
+          "manual design (pre-digital)",
+          "systemic Metabolist planning"
+        ],
+        "assemblyFabrication": [
+          "factory fabrication of steel capsules",
+          "bolt-on on-site installation"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Nakagin_Capsule_Tower_2010.jpg",
+          "alt": "Nakagin Capsule Tower exterior in 2010, showing many small cubic capsules cantilevered from a central shaft.",
+          "role": "overall",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Nakagin_Capsule_Tower",
+          "licenseHint": "CC BY"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Nakagin_Capsule_Tower_-_capsule_interior.jpg",
+          "alt": "Interior of a Nakagin capsule apartment, demonstrating the compact prefabricated living space.",
+          "role": "detail",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Interior_of_Nakagin_Capsule_Tower",
+          "licenseHint": "CC BY-SA"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Nakagin_Capsule_Tower_diagram.svg",
+          "alt": "Diagram illustrating how individual capsule units attach to the Nakagin Tower's core with bolts.",
+          "role": "diagram",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nakagin_Capsule_Tower_diagram.svg",
+          "licenseHint": "CC BY-SA"
+        }
+      ],
+      "references": [
+        {
+          "type": "book",
+          "citation": "Kurokawa, K. (1977). Metabolism in Architecture. Studio Vista.",
+          "url": ""
+        },
+        {
+          "type": "web",
+          "citation": "MoMA. (2022). \"The Many Lives of the Nakagin Capsule Tower\" – exhibition (preservation of capsule).",
+          "url": "https://www.moma.org/calendar/exhibitions/5544"
+        }
+      ]
+    },
+    {
+      "id": "proj15",
+      "title": "Habitat 67",
+      "year": 1967,
+      "authors": [
+        "Moshe Safdie"
+      ],
+      "institutionOrPractice": "Safdie Architects",
+      "location": "Montreal, Canada",
+      "projectType": "housing complex",
+      "tags": [
+        "prefabrication",
+        "modular megastructure",
+        "housing experiment"
+      ],
+      "summary": "A landmark housing project originally built as part of Expo 67, consisting of 354 identical precast concrete boxes assembled into 158 apartments. Habitat 67’s modules (approximately 12m x 6m each) are stacked in varied geometries up to 12 stories high, creating interlocking terraces and bridges. The design aimed to combine the privacy and garden access of suburban homes with the density of an apartment building. Each prefabricated box was factory-made and then arranged on-site using cranes, demonstrating early ambitions for mass-produced modular urban housing:contentReference[oaicite:60]{index=60}:contentReference[oaicite:61]{index=61}.",
+      "analyticalCaption": "Habitat 67 is a seminal example of combinatorial architecture in large-scale housing. It treats the dwelling unit as a standardized building block that can be aggregated in multiple configurations, yielding a complex yet holistic structure:contentReference[oaicite:62]{index=62}. The project anticipated later kit-of-parts thinking by addressing repetitive manufacturing, on-site assembly efficiencies, and resident customization (through varied module arrangements). Decades on, Habitat 67 remains a persuasive built argument for prefabrication’s role in humanizing high-density housing through spatial diversity derived from discrete modules.",
+      "methods": {
+        "computational": [
+          "manual modular design (pre-digital)"
+        ],
+        "assemblyFabrication": [
+          "prefabricated concrete boxes",
+          "crane stacking and post-tensioning"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Habitat_67%2C_Montreal.jpg",
+          "alt": "Habitat 67 complex showing stacked concrete boxes with terraces in Montreal.",
+          "role": "overall",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Habitat_67",
+          "licenseHint": "CC BY-SA"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Habitat_67_closeup.jpg",
+          "alt": "Close-up of Habitat 67 modules highlighting the connections and outdoor terraces formed between units.",
+          "role": "detail",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Habitat_67",
+          "licenseHint": "CC BY-SA"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Habitat_67_model.jpg",
+          "alt": "Architectural model of Habitat 67 demonstrating the modular concept and possible configurations of the boxes.",
+          "role": "diagram",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Habitat_67",
+          "licenseHint": "CC BY"
+        }
+      ],
+      "references": [
+        {
+          "type": "book",
+          "citation": "Safdie, M. (1970). Beyond Habitat. MIT Press.",
+          "url": ""
+        },
+        {
+          "type": "web",
+          "citation": "Tomorrow City. (2021). “Habitat 67: a brutalist icon where suburban home meets urban density”.",
+          "url": "https://tomorrow.city/a/habitat-67-moshe-safdie"
         }
       ]
     }

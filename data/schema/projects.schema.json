@@ -111,7 +111,13 @@
       "properties": {
         "type": { "type": "string", "minLength": 1 },
         "citation": { "type": "string" },
-        "url": { "type": "string", "minLength": 1, "format": "uri" }
+        "url": {
+          "description": "Optional URL for the reference. Empty string is allowed when no stable link is available.",
+          "anyOf": [
+            { "type": "string", "minLength": 1, "format": "uri" },
+            { "type": "string", "maxLength": 0 }
+          ]
+        }
       }
     }
   }
