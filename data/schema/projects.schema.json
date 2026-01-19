@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/discrete-combinatorial-architecture.projects.schema.json",
+  "title": "Discrete & Combinatorial Architecture Projects Dataset",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "generatedAt", "source", "projects"],
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generatedAt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["generator", "notes"],
+      "properties": {
+        "generator": { "type": "string", "minLength": 1 },
+        "notes": { "type": "string", "minLength": 1 }
+      }
+    },
+    "projects": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/project" }
+    }
+  },
+  "$defs": {
+    "project": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "year",
+        "authors",
+        "institutionOrPractice",
+        "location",
+        "projectType",
+        "tags",
+        "summary",
+        "analyticalCaption",
+        "methods",
+        "images",
+        "references"
+      ],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "year": { "type": "integer" },
+        "authors": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "institutionOrPractice": { "type": "string" },
+        "location": { "type": "string" },
+        "projectType": { "type": "string" },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "summary": { "type": "string" },
+        "analyticalCaption": { "type": "string" },
+        "methods": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["computational", "assemblyFabrication"],
+          "properties": {
+            "computational": {
+              "type": "array",
+              "items": { "type": "string", "minLength": 1 }
+            },
+            "assemblyFabrication": {
+              "type": "array",
+              "items": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": { "$ref": "#/$defs/image" }
+        },
+        "references": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/reference" }
+        }
+      }
+    },
+    "image": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "alt", "role", "sourceName", "sourceUrl", "licenseHint"],
+      "properties": {
+        "url": { "type": "string", "minLength": 1, "format": "uri" },
+        "alt": { "type": "string" },
+        "role": { "type": "string", "enum": ["overall", "detail", "diagram"] },
+        "sourceName": { "type": "string", "minLength": 1 },
+        "sourceUrl": { "type": "string", "minLength": 1, "format": "uri" },
+        "licenseHint": { "type": "string" }
+      }
+    },
+    "reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "citation", "url"],
+      "properties": {
+        "type": { "type": "string", "minLength": 1 },
+        "citation": { "type": "string" },
+        "url": { "type": "string", "minLength": 1, "format": "uri" }
+      }
+    }
+  }
+}

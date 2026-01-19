@@ -1,0 +1,15 @@
+{
+  "name": "pdf-gallery",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "data:validate": "node ./scripts/validate-datasets.mjs",
+    "data:build": "node ./scripts/build-project-index.mjs",
+    "data:watch": "node ./scripts/watch-datasets.mjs"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "chokidar": "^4.0.3"
+  }
+}

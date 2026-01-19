@@ -1,0 +1,550 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-19",
+  "source": {
+    "generator": "PDF-Gallery build-project-index",
+    "notes": "Merged datasets from data/schema"
+  },
+  "datasets": [
+    "data/schema/discrete-combinatorial-architecture.projects.json"
+  ],
+  "projects": [
+    {
+      "id": "nest-house-u-build-2022",
+      "title": "Nest House (U-Build, Studio Bark)",
+      "year": 2022,
+      "authors": [
+        "Studio Bark"
+      ],
+      "institutionOrPractice": "Studio Bark",
+      "location": "Herefordshire, United Kingdom",
+      "projectType": "built demountable low-carbon house (kit-of-parts construction)",
+      "tags": [
+        "kit-of-parts",
+        "reversible construction",
+        "modular timber",
+        "self-build pedagogy",
+        "circular construction",
+        "discrete architecture"
+      ],
+      "summary": "Nest House is a single-storey eco-home delivered with Studio Bark’s U-Build system, demonstrating a demountable timber kit-of-parts approach aligned with low-carbon material strategies, accessibility requirements, and participatory construction.",
+      "analyticalCaption": "The project evidences how a discretized construction grammar (repeatable boxes as structural and envelope units) can support both social production—training and collaborative building—and circular material accounting through disassembly-ready detailing.",
+      "methods": {
+        "computational": [
+          "modular coordination based on repeatable U-Build box units",
+          "logistics and part-referencing for on-site assembly",
+          "performance-led detailing for low operational energy"
+        ],
+        "assemblyFabrication": [
+          "prefabricated modular timber box elements (U-Build)",
+          "manual assembly with limited tooling",
+          "demountable detailing enabling future disassembly"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://cdn.sanity.io/images/trx1fvo3/production/110bd5f2dcecbfe4acd5be2895cc12263ba10345-5000x3335.jpg?w=2500&q=75&auto=format",
+          "alt": "Overall view of Nest House at sunset, showing the building in its landscape setting.",
+          "role": "overall",
+          "sourceName": "Studio Bark",
+          "sourceUrl": "https://studiobark.co.uk/projects/nest-house",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://cdn.sanity.io/images/trx1fvo3/production/f1495571f9ebbdf5312c2e68a19b98a46318eab9-1429x2000.jpg?w=800&q=80&fit=max&auto=format",
+          "alt": "Interior/assembly detail showing U-Build modular construction blocks integrated into the building fabric.",
+          "role": "detail",
+          "sourceName": "Studio Bark",
+          "sourceUrl": "https://studiobark.co.uk/projects/nest-house",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://cdn.sanity.io/images/trx1fvo3/production/5bdb6ce0c8a7cd0ebcbfa255336420283f18d76b-2000x2000.jpg?w=2500&q=75&auto=format",
+          "alt": "On-site construction context with participants, indicating the pedagogical and collaborative assembly workflow.",
+          "role": "diagram",
+          "sourceName": "Studio Bark",
+          "sourceUrl": "https://studiobark.co.uk/projects/nest-house",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "Studio Bark. “Nest House.”",
+          "url": "https://studiobark.co.uk/projects/nest-house"
+        }
+      ]
+    },
+    {
+      "id": "box-house-u-build-2018",
+      "title": "Box House (U-Build, Studio Bark)",
+      "year": 2018,
+      "authors": [
+        "Studio Bark"
+      ],
+      "institutionOrPractice": "Studio Bark",
+      "location": "Bicester (Graven Hill), United Kingdom",
+      "projectType": "built housing prototype using modular timber box system",
+      "tags": [
+        "kit-of-parts",
+        "modular timber",
+        "CNC fabrication",
+        "self-build",
+        "discrete construction",
+        "housing"
+      ],
+      "summary": "Box House is a housing project realized at Graven Hill using Studio Bark’s U-Build flat-pack timber box system, exemplifying how discrete modular components can serve simultaneously as structure, enclosure, and construction scaffold for non-specialist builders.",
+      "analyticalCaption": "The project demonstrates an architectural shift from continuous building elements to a nested component inventory, where dimensional standardization and sheet optimization support scalable customization while preserving buildability and warranty constraints.",
+      "methods": {
+        "computational": [
+          "component nesting for sheet-material efficiency",
+          "modular coordination across floor/roof/wall assemblies",
+          "configuration of standardized boxes into bespoke layouts"
+        ],
+        "assemblyFabrication": [
+          "CNC-cut plywood kit components",
+          "manual assembly and stacking of U-Build boxes",
+          "dry assembly logic enabling incremental construction"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://images.adsttc.com/media/images/5d09/9d5f/284d/d17f/3000/046d/newsletter/feature_-_Studio_Bark_U-Build_Box_House_(13).jpg?1560911173",
+          "alt": "Overall exterior view of Box House showing the completed envelope and massing.",
+          "role": "overall",
+          "sourceName": "ArchDaily",
+          "sourceUrl": "https://www.archdaily.com/919381/box-house-studio-bark",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://images.adsttc.com/media/images/5d09/9d3f/284d/d17f/3000/046c/medium_jpg/Studio_Bark_U-Build_Box_House_(5).jpg?1560911139",
+          "alt": "Interior view showing how the modular system resolves structure, openings, and finishes.",
+          "role": "detail",
+          "sourceName": "ArchDaily",
+          "sourceUrl": "https://www.archdaily.com/919381/box-house-studio-bark",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://images.adsttc.com/media/images/5d09/9f87/284d/d137/2600/083b/medium_jpg/Studio_Bark_The_Box_House_Floor_Plans.jpg?1560911741",
+          "alt": "Floor plan diagram for Box House, showing the project’s spatial organization.",
+          "role": "diagram",
+          "sourceName": "ArchDaily",
+          "sourceUrl": "https://www.archdaily.com/919381/box-house-studio-bark",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "ArchDaily. “Box House / Studio Bark.” Published 29 Jun 2019.",
+          "url": "https://www.archdaily.com/919381/box-house-studio-bark"
+        }
+      ]
+    },
+    {
+      "id": "brikawood-interlocking-wood-bricks-2018",
+      "title": "Brikawood (Interlocking Wooden Brick Construction System)",
+      "year": 2018,
+      "authors": [
+        "Brikawood"
+      ],
+      "institutionOrPractice": "Brikawood (France)",
+      "location": "France",
+      "projectType": "interlocking reversible assembly construction system",
+      "tags": [
+        "interlocking assembly",
+        "reversible construction",
+        "kit-of-parts",
+        "wood construction",
+        "discrete architecture",
+        "self-build"
+      ],
+      "summary": "Brikawood is an interlocking wooden brick system designed for rapid construction of small buildings and houses through dry assembly, reducing reliance on adhesives and fasteners and promoting modularity and potential disassembly.",
+      "analyticalCaption": "The system treats the building envelope as a discrete stack of standardized units whose global performance (stiffness, enclosure, and thermal behavior) is pursued through local geometric interlocks and fill strategies rather than through conventional layered assemblies.",
+      "methods": {
+        "computational": [
+          "standardization of unit geometry for repeatable assembly",
+          "catalog-based configuration logic for openings and corners",
+          "component referencing and bill-of-materials driven assembly planning"
+        ],
+        "assemblyFabrication": [
+          "machined timber components forming interlocking bricks",
+          "dry stacking / press-fit assembly without glue",
+          "insulation via cavity fill strategies"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://brikawood.com/wp-content/uploads/2023/11/IMG_20181005_151723-2-2048x1536.jpg",
+          "alt": "Overall view of a Brikawood-built timber house, showing the discrete stacked construction logic.",
+          "role": "overall",
+          "sourceName": "Brikawood",
+          "sourceUrl": "https://brikawood.com/le-concept-brikawood/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://brikawood.com/wp-content/uploads/2023/11/briques-brikawood_3.png",
+          "alt": "Detail of the Brikawood interlocking wooden brick unit and joint geometry.",
+          "role": "detail",
+          "sourceName": "Brikawood",
+          "sourceUrl": "https://brikawood.com/le-concept-brikawood/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://brikawood.com/wp-content/uploads/2024/04/Rapidite-de-montage-scaled.jpg",
+          "alt": "Illustrative image communicating rapid assembly as a key performance claim of the system.",
+          "role": "diagram",
+          "sourceName": "Brikawood",
+          "sourceUrl": "https://brikawood.com/le-concept-brikawood/",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "Brikawood. “Le concept Brikawood.”",
+          "url": "https://brikawood.com/le-concept-brikawood/"
+        },
+        {
+          "type": "web",
+          "citation": "Franco, José Tomás. “Innovative ‘Wooden Bricks’ System Cuts Building Time to Just a Few Days.” ArchDaily, 26 Jan 2018.",
+          "url": "https://www.archdaily.com/887541/innovative-wooden-bricks-system-cuts-building-time-to-just-a-few-days"
+        }
+      ]
+    },
+    {
+      "id": "blockhood-2017",
+      "title": "Block’hood",
+      "year": 2017,
+      "authors": [
+        "Plethora Project",
+        "Jose Sanchez"
+      ],
+      "institutionOrPractice": "Plethora Project",
+      "location": "Digital (PC distribution via Steam)",
+      "projectType": "game-engine-based combinatorial urbanism simulator",
+      "tags": [
+        "game-engine-based architectural system",
+        "combinatorial architecture",
+        "discrete simulation",
+        "systems ecology",
+        "block-based modeling",
+        "platform"
+      ],
+      "summary": "Block’hood is a neighborhood-building simulation in which players compose dense urban ecosystems from discrete blocks whose inputs and outputs must be balanced, foregrounding combinatorial configuration and resource coupling as design drivers.",
+      "analyticalCaption": "By encoding architectural and infrastructural dependencies as block-level metabolic rules, the platform frames urban form as a dynamic network problem in which combinatorial assembly is continuously evaluated through systemic feedback and decay.",
+      "methods": {
+        "computational": [
+          "rule-based block dependency simulation",
+          "resource-flow modeling (inputs/outputs per unit)",
+          "constraint-driven combinatorial configuration in a game environment"
+        ],
+        "assemblyFabrication": [
+          "digital block placement in a simulated environment",
+          "iterative testing via real-time system feedback",
+          "scenario-driven configuration (story, sandbox, challenge modes)"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/416210/header.jpg?t=1721868419",
+          "alt": "Block’hood Steam store header image.",
+          "role": "overall",
+          "sourceName": "Steam",
+          "sourceUrl": "https://store.steampowered.com/app/416210/Blockhood/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/416210/ss_dc9cd8cbf5a79c437fd43019b1108171f615632a.jpg",
+          "alt": "Block’hood gameplay screenshot illustrating dense block-based neighborhood composition.",
+          "role": "detail",
+          "sourceName": "Steam",
+          "sourceUrl": "https://store.steampowered.com/app/416210/Blockhood/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/416210/ss_a4d621f09266df6b9281b3e4c99c032c02546ad9.jpg",
+          "alt": "Block’hood gameplay screenshot indicating combinatorial block arrangements and system feedback.",
+          "role": "diagram",
+          "sourceName": "Steam",
+          "sourceUrl": "https://store.steampowered.com/app/416210/Blockhood/",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "Steam. “Block’hood (Store Page).”",
+          "url": "https://store.steampowered.com/app/416210/Blockhood/"
+        }
+      ]
+    },
+    {
+      "id": "icd-itke-research-pavilion-2014-15",
+      "title": "ICD/ITKE Research Pavilion 2014–15",
+      "year": 2015,
+      "authors": [
+        "Achim Menges",
+        "Jan Knippers",
+        "ICD/ITKE University of Stuttgart"
+      ],
+      "institutionOrPractice": "University of Stuttgart (ICD/ITKE)",
+      "location": "Stuttgart, Germany",
+      "projectType": "robotically fabricated composite shell pavilion",
+      "tags": [
+        "digital materials",
+        "computational design",
+        "robotic fabrication",
+        "fiber composites",
+        "lightweight structures",
+        "temporary pavilion"
+      ],
+      "summary": "The ICD/ITKE Research Pavilion 2014–15 demonstrates a material-efficient fiber-composite architectural shell produced through robotic fabrication that progressively stiffens an initially flexible formwork, integrating material behavior with computational design intent.",
+      "analyticalCaption": "Rather than treating material as a passive substrate, the pavilion operationalizes a digitally controlled reinforcement logic where structural performance, fabrication access, and geometric continuity are co-optimized through process-driven design.",
+      "methods": {
+        "computational": [
+          "biomimetic design workflow",
+          "structural simulation-informed geometry",
+          "robotic toolpath planning for in-situ reinforcement"
+        ],
+        "assemblyFabrication": [
+          "robotic fiber placement / internal reinforcement on pneumatic formwork",
+          "incremental stiffening during fabrication",
+          "lightweight on-site pavilion assembly"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://images.adsttc.com/media/images/55ac/ee64/e58e/ce12/db00/0242/newsletter/ICD-ITKE_RP13-14_Image10.jpg?1437396574",
+          "alt": "Overall exterior view of the ICD/ITKE Research Pavilion shell.",
+          "role": "overall",
+          "sourceName": "ArchDaily",
+          "sourceUrl": "https://www.archdaily.com/770516/icd-itke-research-pavilion-2014-15-icd-itke-university-of-stuttgart",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://images.adsttc.com/media/images/55ac/ef18/e58e/ce12/db00/0249/newsletter/ICD-ITKE_RP14-15_Process05.jpg?1437396755",
+          "alt": "Fabrication/process view illustrating the pneumatic formwork and composite reinforcement workflow.",
+          "role": "detail",
+          "sourceName": "ArchDaily",
+          "sourceUrl": "https://www.archdaily.com/770516/icd-itke-research-pavilion-2014-15-icd-itke-university-of-stuttgart",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://images.adsttc.com/media/images/55ac/ef9e/e58e/ce12/db00/024f/medium_jpg/ICD-ITKE_RP14-15_Process14.jpg?1437396887",
+          "alt": "Process/analysis image related to sensing or control interfaces used in adaptive fabrication.",
+          "role": "diagram",
+          "sourceName": "ArchDaily",
+          "sourceUrl": "https://www.archdaily.com/770516/icd-itke-research-pavilion-2014-15-icd-itke-university-of-stuttgart",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "ArchDaily. “ICD/ITKE Research Pavilion 2014-15 / ICD/ITKE University of Stuttgart.” Published 20 Jul 2015.",
+          "url": "https://www.archdaily.com/770516/icd-itke-research-pavilion-2014-15-icd-itke-university-of-stuttgart"
+        }
+      ]
+    },
+    {
+      "id": "flight-assembled-architecture-2011",
+      "title": "Flight Assembled Architecture",
+      "year": 2011,
+      "authors": [
+        "Gramazio Kohler Research (ETH Zürich)",
+        "Raffaello D'Andrea"
+      ],
+      "institutionOrPractice": "ETH Zürich (Gramazio Kohler Research; Flying Machine Arena)",
+      "location": "Orléans, France (FRAC Centre exhibition context)",
+      "projectType": "robotic discrete construction (aerial assembly demonstrator)",
+      "tags": [
+        "discrete architecture",
+        "robotic construction",
+        "aerial robotics",
+        "automated assembly",
+        "block placement",
+        "computational design"
+      ],
+      "summary": "Flight Assembled Architecture is an experimental construction demonstrator in which autonomous quadrotors place discrete blocks to form a freestanding architectural-scale structure, foregrounding computation, coordination, and logistics as primary design media.",
+      "analyticalCaption": "The project reframes architectural form as an emergent consequence of multi-agent assembly constraints—payload capacity, collision avoidance, and spatial sequencing—thereby coupling geometry to a robotic process model rather than to static fabrication drawings.",
+      "methods": {
+        "computational": [
+          "multi-agent path planning",
+          "discrete stacking logic",
+          "process-aware design (assembly sequencing and feasibility constraints)"
+        ],
+        "assemblyFabrication": [
+          "quadrotor-mediated pick-and-place of discrete blocks",
+          "incremental on-site assembly",
+          "automated coordination and positioning"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://www.flyingmachinearena.ethz.ch/data/gallery/frac-centre/faa_tower_full.jpg",
+          "alt": "Overall view of the assembled tower produced by aerial placement of discrete blocks.",
+          "role": "overall",
+          "sourceName": "ETH Zürich Flying Machine Arena",
+          "sourceUrl": "https://www.flyingmachinearena.ethz.ch/project/frac-centre/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://www.flyingmachinearena.ethz.ch/data/gallery/frac-centre/faa_place_brick.jpg",
+          "alt": "A quadrotor places a block onto the growing structure during aerial construction.",
+          "role": "detail",
+          "sourceName": "ETH Zürich Flying Machine Arena",
+          "sourceUrl": "https://www.flyingmachinearena.ethz.ch/project/frac-centre/",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://www.flyingmachinearena.ethz.ch/data/gallery/frac-centre/faa_two_quads.jpg",
+          "alt": "Two quadrotors fly in coordination to deliver and position blocks in parallel.",
+          "role": "diagram",
+          "sourceName": "ETH Zürich Flying Machine Arena",
+          "sourceUrl": "https://www.flyingmachinearena.ethz.ch/project/frac-centre/",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "ETH Zürich Flying Machine Arena. “Flight Assembled Architecture (FRAC Centre project page).”",
+          "url": "https://www.flyingmachinearena.ethz.ch/project/frac-centre/"
+        }
+      ]
+    },
+    {
+      "id": "wikihouse-open-source-system-2011",
+      "title": "WikiHouse (Open-Source Digital Construction System)",
+      "year": 2011,
+      "authors": [
+        "WikiHouse community"
+      ],
+      "institutionOrPractice": "WikiHouse Foundation",
+      "location": "Global",
+      "projectType": "open-source kit-of-parts platform for digitally fabricated buildings",
+      "tags": [
+        "discrete architecture",
+        "kit-of-parts",
+        "open-source",
+        "CNC fabrication",
+        "reversible assembly",
+        "platform"
+      ],
+      "summary": "WikiHouse is an open-source platform for the design and fabrication of discrete building components that can be digitally manufactured and assembled into architectural structures, emphasizing accessibility, modularity, and iterative improvement through shared standards.",
+      "analyticalCaption": "The system operationalizes a digital-to-physical pipeline in which component geometry encodes assembly constraints, enabling distributed production and enabling buildings to be conceived as recombinable inventories rather than monolithic constructions.",
+      "methods": {
+        "computational": [
+          "parametric and template-based component design",
+          "digital fabrication file generation (CNC-ready geometry)",
+          "distributed platform-based knowledge sharing"
+        ],
+        "assemblyFabrication": [
+          "CNC-cut sheet-material components",
+          "tab-and-slot / interlocking joinery strategies",
+          "dry assembly enabling disassembly and reuse"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/WikiHouse.jpg",
+          "alt": "WikiHouse structure photographed in use as an assembled prototype/building system example.",
+          "role": "overall",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:WikiHouse.jpg",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Wikihouse_The_Hub_Westminster.jpg",
+          "alt": "WikiHouse at The Hub Westminster, showing the assembled timber kit structure.",
+          "role": "detail",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wikihouse_The_Hub_Westminster.jpg",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/WikiHouse_Wien_Detail_%282%29.jpg",
+          "alt": "Detail view of WikiHouse elements, emphasizing component articulation and jointing logic (ViennaOpen 2015 context).",
+          "role": "diagram",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:WikiHouse_Wien_Detail_(2).jpg",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "Wikipedia contributors. “WikiHouse.”",
+          "url": "https://en.wikipedia.org/wiki/WikiHouse"
+        }
+      ]
+    },
+    {
+      "id": "gc-prostho-museum-research-center-2010",
+      "title": "GC Prostho Museum Research Center",
+      "year": 2010,
+      "authors": [
+        "Kengo Kuma & Associates"
+      ],
+      "institutionOrPractice": "Kengo Kuma & Associates",
+      "location": "Kasugai (Aichi Prefecture), Japan",
+      "projectType": "built interlocking timber lattice building",
+      "tags": [
+        "interlocking assembly",
+        "reversible joinery",
+        "kit-of-parts logic",
+        "lattice structures",
+        "wood construction",
+        "combinatorial architecture"
+      ],
+      "summary": "The GC Prostho Museum Research Center translates the logic of the traditional Japanese Cidori (Chidori) toy into a building-scale timber lattice, constructing architectural space through the repetition and combination of small interlocking units without metal fasteners.",
+      "analyticalCaption": "By scaling a discrete joint grammar into an inhabitable system, the project exemplifies combinatorial architecture in which structural capacity, enclosure, and display infrastructure emerge from a unified unit-based assembly logic.",
+      "methods": {
+        "computational": [
+          "unit-based spatial/structural design",
+          "grid and joint-logic development",
+          "coordination of repetition and variation within a discrete lattice"
+        ],
+        "assemblyFabrication": [
+          "manual assembly of interlocking timber members",
+          "fastener-free joinery logic (no nails/metal fittings in the Cidori principle)",
+          "modular lattice erection and fit-up"
+        ]
+      },
+      "images": [
+        {
+          "url": "https://images.adsttc.com/media/images/5004/e0bb/28ba/0d4e/8d00/0ad0/newsletter/stringio.jpg?1414027311",
+          "alt": "Overall view of the GC Prostho Museum Research Center lattice structure.",
+          "role": "overall",
+          "sourceName": "ArchDaily",
+          "sourceUrl": "https://www.archdaily.com/199442/gc-prostho-museum-research-center-kengo-kuma-associates",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://images.adsttc.com/media/images/5004/e0c9/28ba/0d4e/8d00/0ad4/medium_jpg/stringio.jpg?1414027319",
+          "alt": "Interior view emphasizing the spatial density and visual porosity of the timber grid.",
+          "role": "detail",
+          "sourceName": "ArchDaily",
+          "sourceUrl": "https://www.archdaily.com/199442/gc-prostho-museum-research-center-kengo-kuma-associates",
+          "licenseHint": "unknown"
+        },
+        {
+          "url": "https://images.adsttc.com/media/images/5004/e0d2/28ba/0d4e/8d00/0ad7/medium_jpg/stringio.jpg?1414027324",
+          "alt": "Elevation/diagrammatic representation associated with the building’s lattice system.",
+          "role": "diagram",
+          "sourceName": "ArchDaily",
+          "sourceUrl": "https://www.archdaily.com/199442/gc-prostho-museum-research-center-kengo-kuma-associates",
+          "licenseHint": "unknown"
+        }
+      ],
+      "references": [
+        {
+          "type": "web",
+          "citation": "ArchDaily. “GC Prostho Museum Research Center / Kengo Kuma & Associates.” Published 16 Jan 2012.",
+          "url": "https://www.archdaily.com/199442/gc-prostho-museum-research-center-kengo-kuma-associates"
+        }
+      ]
+    }
+  ]
+}
